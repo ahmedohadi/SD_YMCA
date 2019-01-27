@@ -1,11 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-mroom',
+  templateUrl: './mroom.component.html',
+  styleUrls: ['./mroom.component.css']
 })
-export class HomeComponent implements OnInit {
+export class MroomComponent implements OnInit {
 
   @Input()
   public home: any;
