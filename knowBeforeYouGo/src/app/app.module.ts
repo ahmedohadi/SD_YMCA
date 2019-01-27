@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contactus/contact.component';
 import { MroomComponent } from './Mroom/mroom.component';
+import { DrowningPreventionComponent } from './drowning-prevention/drowning-prevention.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutUsComponent,
     ContactUsComponent,
-    MroomComponent
+    MroomComponent,
+    DrowningPreventionComponent
   ],
   imports: [
     BrowserModule,
