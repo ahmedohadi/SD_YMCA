@@ -5,12 +5,15 @@ import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { AboutUsComponent } from './about-us/about-us.component';
-
+import { ContactUsComponent } from './contactus/contact.component';
+import { MroomComponent } from './Mroom/mroom.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ContactUsComponent,
+    MroomComponent
   ],
   imports: [
     BrowserModule,
