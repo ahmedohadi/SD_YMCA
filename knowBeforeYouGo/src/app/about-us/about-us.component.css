@@ -34,3 +34,16 @@ h3 {
   line-height:1.5;
   color: rgb(52, 130, 189);
 }
+
+#safety {
+  width: 30%;
+  margin-left: 4em;
+  margin-top: 5.5em;
+  margin-right: -1em;
+  margin-bottom: 1.2em;
+}
+
+#content {
+  margin-left: 2em;
+  margin-right: 2em;
+}
