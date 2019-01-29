@@ -1,0 +1,13 @@
+.carousel-inner img {
+    margin: auto;
+}
+
+body {
+    padding-top: 50px; 
+    padding:  50px; 
+}
+.badge-danger {
+    
+    vertical-align: super;
+    font-size: large; 
+}
