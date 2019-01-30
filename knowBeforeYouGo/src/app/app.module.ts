@@ -10,6 +10,8 @@ import { MroomComponent } from './Mroom/mroom.component';
 import { DrowningPreventionComponent } from './drowning-prevention/drowning-prevention.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { ResourcesComponent } from './resources/recources.component';
 
 @NgModule({
    declarations: [
@@ -19,7 +21,9 @@ import { NavbarComponent } from './navbar/navbar.component';
       MroomComponent,
       DrowningPreventionComponent,
       HomePageComponent,
-      NavbarComponent
+      NavbarComponent,
+      FooterComponent,
+      ResourcesComponent
    ],
    imports: [
       BrowserModule,
