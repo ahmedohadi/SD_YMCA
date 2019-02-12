@@ -1,11 +1,22 @@
+@font-face {
+  font-family: Cachet;
+  src:url("../../assets/CachetStd-Medium.otf") format("opentype");
+}
+
 br {
   display: block;
   margin: 5em;
 }
 
+h1, h2, h3{
+  font-family: Cachet;
+}
+
 p{
   padding-left: .5em;
+  font-family: Cachet;
 }
+
 
 .titlerec{
   padding-left: 1em;
@@ -34,5 +45,5 @@ p{
 }
 
 .resources{
-  padding-bottom: 5%;
+  padding-bottom: 6%;
 }

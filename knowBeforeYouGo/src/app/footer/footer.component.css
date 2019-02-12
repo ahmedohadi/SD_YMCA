@@ -1,12 +1,16 @@
-
+@font-face {
+  font-family: Cachet;
+  src:url("../../assets/CachetStd-Medium.otf") format("opentype");
+}
 
 .footer{
+  font-family: Cachet;
   position: fixed;
   margin: auto;
   text-align: center;
   column-count: 3;
   bottom: 0;
-  height: 10%;
+  height: 11%;
   width: 100%;
-  background-color: yellow
+  background-color: #fcaf17;
 }
