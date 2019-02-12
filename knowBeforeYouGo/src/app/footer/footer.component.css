@@ -1,0 +1,13 @@
+.contact, .donate, .partner{
+  width: 33%;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer{
+  position: relative;
+  height: 7%;
+  width: 100%;
+  background-color: yellow
+}

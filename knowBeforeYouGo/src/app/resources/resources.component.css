@@ -1,0 +1,34 @@
+br {
+  display: block;
+  margin: 5em;
+}
+
+p{
+  padding-left: .5em;
+}
+
+.titlerec{
+  padding-left: 1em;
+}
+
+.vids{
+  margin: auto;
+  column-count: 2;
+  width: 60%;
+  text-align: center;
+}
+
+.books{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.Top5WSTipsPic{
+  height: 50%;
+  width: 50%;
+}
+
+ .WSvids, .WSbooks{
+  text-align: center;
+}
