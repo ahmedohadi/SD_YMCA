@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { RouterModule, Routes, Router } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AboutUsComponent } from './about-us/about-us.component';
@@ -12,6 +13,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResourcesComponent } from './resources/recources.component';
+
+const defaultRoute = 'home';
 
 @NgModule({
    declarations: [
@@ -28,7 +31,17 @@ import { ResourcesComponent } from './resources/recources.component';
    imports: [
       BrowserModule,
       FormsModule,
-      CommonModule
+      CommonModule,
+      RouterModule.forRoot([
+        { path: 'about-us', component: AboutUsComponent},
+        { path: 'drowning-prevention', component: DrowningPreventionComponent},
+        { path: 'events', component: MroomComponent},
+        { path: 'contact-us', component: ContactUsComponent},
+        // { path: 'donate', component: }
+        { path: 'home', component: HomePageComponent},
+        { path: '', redirectTo: defaultRoute, pathMatch: 'full' },
+        { path: '**', redirectTo: defaultRoute, pathMatch: 'full' }
+      ])
    ],
    providers: [],
    bootstrap: [
