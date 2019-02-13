@@ -39,11 +39,15 @@ h3 {
   width: 30%;
   margin-left: 4em;
   margin-top: 5.5em;
-  margin-right: -1em;
+  margin-right: 2em;
   margin-bottom: 1.2em;
 }
 
 #content {
   margin-left: 2em;
-  margin-right: 2em;
+  margin-right: 1.5em;
+}
+
+html {
+  overflow-y: scroll;
 }
