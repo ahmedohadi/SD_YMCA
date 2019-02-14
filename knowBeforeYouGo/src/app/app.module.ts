@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes, Router } from '@angular/router';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contactus/contact.component';
@@ -32,6 +32,7 @@ const defaultRoute = 'home';
       BrowserModule,
       FormsModule,
       CommonModule,
+      BrowserAnimationsModule,
       RouterModule.forRoot([
         { path: 'about-us', component: AboutUsComponent},
         { path: 'drowning-prevention', component: DrowningPreventionComponent},
