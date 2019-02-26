@@ -38,6 +38,7 @@ const defaultRoute = 'home';
         { path: 'drowning-prevention', component: DrowningPreventionComponent},
         { path: 'events', component: MroomComponent},
         { path: 'contact-us', component: ContactUsComponent},
+        { path: 'resources', component: ResourcesComponent},
         // { path: 'donate', component: }
         { path: 'home', component: HomePageComponent},
         { path: '', redirectTo: defaultRoute, pathMatch: 'full' },

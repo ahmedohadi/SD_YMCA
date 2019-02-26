@@ -4,7 +4,6 @@
 }
 
 br {
-  display: block;
   margin: 5em;
 }
 
@@ -15,35 +14,38 @@ h1, h2, h3{
 p{
   padding-left: .5em;
   font-family: Cachet;
+  display: inline-block;
 }
 
+.resources{
+  background: #8EC1E8;
+  text-align: center;
+}
+
+.physical{
+  background-color: #eeeeee;
+}
 
 .titlerec{
   padding-left: 1em;
 }
 
+.Viddiv{
+  background-color: #8EC1E8
+}
 .vids{
   margin: auto;
-  column-count: 2;
-  width: 60%;
+  column-count: 1;
+  width: 100%;
   text-align: center;
 }
 
 .books{
-  margin: auto;
-  width: 50%;
+  background-color: #eeeeee;
   text-align: center;
 }
 
-.Top5WSTipsPic{
-  height: 50%;
-  width: 50%;
-}
 
  .WSvids, .WSbooks{
   text-align: center;
-}
-
-.resources{
-  padding-bottom: 6%;
 }
