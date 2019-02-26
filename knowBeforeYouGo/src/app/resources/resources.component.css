@@ -17,6 +17,19 @@ p{
   display: inline-block;
 }
 
+.titleBanner{
+  color: white;
+}
+
+.carousel-indicators{
+  position: static;
+}
+
+.carousel-caption{
+  position: static;
+
+}
+
 .resources{
   background: #8EC1E8;
   text-align: center;
@@ -31,14 +44,19 @@ p{
 }
 
 .Viddiv{
-  background-color: #8EC1E8
+  background-color: #8EC1E8;
+  color: white;
 }
+
+/*
 .vids{
+  color: white;
   margin: auto;
   column-count: 1;
   width: 100%;
   text-align: center;
 }
+*/
 
 .books{
   background-color: #eeeeee;
