@@ -22,7 +22,7 @@ h3 {
 }
 
 .intro, .mission, .history {
-  font-size: 140%;
+  font-size: 110%;
   margin-left: 1.8em;
   padding-right: 1.4em;
   padding-bottom: 2em;
@@ -32,7 +32,7 @@ h3 {
 
 .ourmission, .historyH {
   padding-top: 1em;
-  font-size: 180%;
+  font-size: 150%;
   font-weight: bold;
   margin-left: 1.5em;
   font-family: Cachet;
@@ -46,10 +46,6 @@ h3 {
   margin-top: 5.5em;
   margin-right: 2em;
   margin-bottom: 1.2em;
-}
-
-#content {
-  margin-left: 1em;
 }
 
 html {
