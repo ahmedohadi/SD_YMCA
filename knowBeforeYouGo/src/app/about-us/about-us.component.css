@@ -12,7 +12,7 @@
 .top-left {
   position: absolute;
   padding-left: .7em;
-  font-size: 250%;
+  font-size: 230%;
   font-family: Cachet;
   color: rgb(52, 122, 189);
 }
@@ -42,11 +42,9 @@ h3 {
 
 #safety {
   width: 28%;
-  margin-left: 2.7em;
+  margin-left: 2.8em;
   margin-top: -3em;
-  /* margin-top: 2.3em; */
-  margin-right: 2em;
-  /*margin-bottom: 1.2em; */
+  margin-right: 2.5em;
 }
 
 html {
