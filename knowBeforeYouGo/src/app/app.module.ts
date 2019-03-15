@@ -13,6 +13,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResourcesComponent } from './resources/recources.component';
+import { ThreeRulesComponent } from './three-rules/three-rules.component';
 
 const defaultRoute = 'home';
 
@@ -26,7 +27,8 @@ const defaultRoute = 'home';
       HomePageComponent,
       NavbarComponent,
       FooterComponent,
-      ResourcesComponent
+      ResourcesComponent,
+      ThreeRulesComponent
    ],
    imports: [
       BrowserModule,
