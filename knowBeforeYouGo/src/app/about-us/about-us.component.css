@@ -1,5 +1,5 @@
 #top-img {
-  max-width:100%;
+  width:100%;
   height:8em;
   object-fit: cover;
   opacity: .65;
@@ -68,6 +68,15 @@ aside {
 
 @media (max-width: 50em) {
   aside {
-  display: none;
+    display: none;
   }
+}
+
+@media (max-width: 45em) {
+  img {
+    padding-top: 5em;
+    size: 100%;
+    height: auto;
+    display: block;
   }
+}
