@@ -1,9 +1,10 @@
 #top-img {
-  width:100%;
+  max-width:100%;
   height:8em;
   object-fit: cover;
   opacity: .65;
 }
+
 
 .container {
   position: relative;
@@ -58,3 +59,15 @@ html {
 #second-section {
   background: rgba(214, 141, 5, 0.61);
 }
+
+aside {
+  float: right;
+  margin-left: .7em;
+  margin-bottom: .5em;
+}
+
+@media (max-width: 50em) {
+  aside {
+  display: none;
+  }
+  }
