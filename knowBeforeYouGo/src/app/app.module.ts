@@ -14,6 +14,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResourcesComponent } from './resources/recources.component';
 import { ThreeRulesComponent } from './three-rules/three-rules.component';
+import { HiddendangersComponent } from './hiddendangers/hiddendangers.component';
 
 const defaultRoute = 'home';
 
@@ -28,7 +29,8 @@ const defaultRoute = 'home';
       NavbarComponent,
       FooterComponent,
       ResourcesComponent,
-      ThreeRulesComponent
+      ThreeRulesComponent,
+      HiddendangersComponent,
    ],
    imports: [
       BrowserModule,
@@ -36,20 +38,19 @@ const defaultRoute = 'home';
       CommonModule,
       BrowserAnimationsModule,
       RouterModule.forRoot([
-        { path: 'about-us', component: AboutUsComponent},
-        { path: 'drowning-prevention', component: DrowningPreventionComponent},
-        { path: 'events', component: MroomComponent},
-        { path: 'contact-us', component: ContactUsComponent},
-        { path: 'resources', component: ResourcesComponent},
-        // { path: 'donate', component: }
-        { path: 'home', component: HomePageComponent},
-        { path: '', redirectTo: defaultRoute, pathMatch: 'full' },
-        { path: '**', redirectTo: defaultRoute, pathMatch: 'full' }
-      ])
-   ],
-   providers: [],
-   bootstrap: [
-      AppComponent
-   ]
+         { path: 'about-us', component: AboutUsComponent},
+         { path: 'drowning-prevention', component: DrowningPreventionComponent},
+         { path: 'events', component: MroomComponent},
+         { path: 'contact-us', component: ContactUsComponent},
+         { path: 'resources', component: ResourcesComponent},
+         { path: 'dangers', component: HiddendangersComponent},
+         // { path: 'donate', component: }
+         { path: 'home', component: HomePageComponent},
+         { path: '', redirectTo: defaultRoute, pathMatch: 'full' },
+         { path: '**', redirectTo: defaultRoute, pathMatch: 'full' }
+       ])
+      ],
+      providers: [ ],
+      bootstrap: [AppComponent]
 })
 export class AppModule { }
