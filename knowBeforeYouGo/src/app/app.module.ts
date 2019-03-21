@@ -13,8 +13,19 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResourcesComponent } from './resources/recources.component';
+import { QuizzlerService } from './drowning-prevention/quizzler.service';
 
-const defaultRoute = 'home';
+const defaultRoute: Routes = [
+  { path: 'home', component: HomePageComponent},
+  { path: 'about-us', component: AboutUsComponent},
+  { path: 'drowning-prevention', component: DrowningPreventionComponent},
+  { path: 'events', component: MroomComponent},
+  { path: 'contact-us', component: ContactUsComponent},
+  // { path: 'donate', component: }
+  // { path: 'home', component: HomePageComponent},
+  // { path: '', redirectTo: defaultRoute, pathMatch: 'full' },
+  // { path: '**', redirectTo: defaultRoute, pathMatch: 'full' }
+];
 
 @NgModule({
    declarations: [
@@ -33,16 +44,7 @@ const defaultRoute = 'home';
       FormsModule,
       CommonModule,
       BrowserAnimationsModule,
-      RouterModule.forRoot([
-        { path: 'about-us', component: AboutUsComponent},
-        { path: 'drowning-prevention', component: DrowningPreventionComponent},
-        { path: 'events', component: MroomComponent},
-        { path: 'contact-us', component: ContactUsComponent},
-        // { path: 'donate', component: }
-        { path: 'home', component: HomePageComponent},
-        { path: '', redirectTo: defaultRoute, pathMatch: 'full' },
-        { path: '**', redirectTo: defaultRoute, pathMatch: 'full' }
-      ])
+      RouterModule.forRoot(defaultRoute)
    ],
    providers: [],
    bootstrap: [
