@@ -1,0 +1,63 @@
+div {
+  height: 40%;
+  background-image: linear-gradient(rgb(17, 17, 138), rgb(3, 70, 172));
+  width: 17vw;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  padding: 1em;
+  text-align: center;
+  border: .05em solid rgb(63, 56, 56);
+  color: white;
+  font-family: Verdana;
+  font-size: 75%;
+}
+
+.borderProp {
+  border: .05em solid rgb(63, 56, 56);
+}
+
+h1 {
+  font-size: 400%;
+  color: rgba(144, 250, 245, 0.527);
+  padding-left: .3em;
+}
+
+.ruleOne, .ruleTwo, .ruleThree {
+  display: flex;
+}
+
+.titleNames {
+  padding-top: 1.3em;
+  padding-left: .3em;
+  color: cornsilk;
+  font-size: 120%;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+.text {
+  display: inline-block;
+  margin-top: -1em;
+  text-align: center;
+  font-size: 90%;
+}
+
+.lastTitle {
+  padding-top: .7em;
+  padding-left: .3em;
+  color: cornsilk;
+  font-size: 120%;
+  text-align: center;
+}
+
+.lastOne {
+  padding-bottom: .7em;
+  cursor: pointer;
+}
