@@ -13,12 +13,10 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResourcesComponent } from './resources/recources.component';
-<<<<<<< HEAD
+
 import { QuizzlerService } from './drowning-prevention/quizzler.service';
-=======
 import { ThreeRulesComponent } from './three-rules/three-rules.component';
 import { HiddendangersComponent } from './hiddendangers/hiddendangers.component';
->>>>>>> 46f20dddd33e36711e3a09751ab7b94e47fc60b8
 
 const defaultRoute: Routes = [
   { path: 'home', component: HomePageComponent},
@@ -51,29 +49,23 @@ const defaultRoute: Routes = [
       FormsModule,
       CommonModule,
       BrowserAnimationsModule,
-<<<<<<< HEAD
       RouterModule.forRoot(defaultRoute)
    ],
    providers: [],
    bootstrap: [
       AppComponent
    ]
-=======
-      RouterModule.forRoot([
-         { path: 'about-us', component: AboutUsComponent},
-         { path: 'drowning-prevention', component: DrowningPreventionComponent},
-         { path: 'events', component: MroomComponent},
-         { path: 'contact-us', component: ContactUsComponent},
-         { path: 'resources', component: ResourcesComponent},
-         { path: 'dangers', component: HiddendangersComponent},
-         // { path: 'donate', component: }
-         { path: 'home', component: HomePageComponent},
-         { path: '', redirectTo: defaultRoute, pathMatch: 'full' },
-         { path: '**', redirectTo: defaultRoute, pathMatch: 'full' }
-       ])
-      ],
-      providers: [ ],
-      bootstrap: [AppComponent]
->>>>>>> 46f20dddd33e36711e3a09751ab7b94e47fc60b8
+      // RouterModule.forRoot([
+      //    { path: 'about-us', component: AboutUsComponent},
+      //    { path: 'drowning-prevention', component: DrowningPreventionComponent},
+      //    { path: 'events', component: MroomComponent},
+      //    { path: 'contact-us', component: ContactUsComponent},
+      //    { path: 'resources', component: ResourcesComponent},
+      //    { path: 'dangers', component: HiddendangersComponent},
+      //    // { path: 'donate', component: }
+      //    { path: 'home', component: HomePageComponent},
+      //    { path: '', redirectTo: defaultRoute, pathMatch: 'full' },
+      //    { path: '**', redirectTo: defaultRoute, pathMatch: 'full' }
+      //  ])
 })
 export class AppModule { }
