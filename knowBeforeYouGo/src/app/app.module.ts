@@ -24,6 +24,8 @@ const defaultRoute: Routes = [
   { path: 'drowning-prevention', component: DrowningPreventionComponent},
   { path: 'events', component: MroomComponent},
   { path: 'contact-us', component: ContactUsComponent},
+  { path: 'dangers', component: HiddendangersComponent},
+  { path: 'resources', component: ResourcesComponent}
   // { path: 'donate', component: }
   // { path: 'home', component: HomePageComponent},
   // { path: '', redirectTo: defaultRoute, pathMatch: 'full' },
