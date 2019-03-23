@@ -19,6 +19,7 @@ import { ThreeRulesComponent } from './three-rules/three-rules.component';
 import { HiddendangersComponent } from './hiddendangers/hiddendangers.component';
 
 const defaultRoute: Routes = [
+  { path: '', component: HomePageComponent},
   { path: 'home', component: HomePageComponent},
   { path: 'about-us', component: AboutUsComponent},
   { path: 'drowning-prevention', component: DrowningPreventionComponent},
