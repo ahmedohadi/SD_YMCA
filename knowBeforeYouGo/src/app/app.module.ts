@@ -27,10 +27,6 @@ const defaultRoute: Routes = [
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'dangers', component: HiddendangersComponent},
   { path: 'resources', component: ResourcesComponent}
-  // { path: 'donate', component: }
-  // { path: 'home', component: HomePageComponent},
-  // { path: '', redirectTo: defaultRoute, pathMatch: 'full' },
-  // { path: '**', redirectTo: defaultRoute, pathMatch: 'full' }
 ];
 
 @NgModule({
@@ -58,17 +54,5 @@ const defaultRoute: Routes = [
    bootstrap: [
       AppComponent
    ]
-      // RouterModule.forRoot([
-      //    { path: 'about-us', component: AboutUsComponent},
-      //    { path: 'drowning-prevention', component: DrowningPreventionComponent},
-      //    { path: 'events', component: MroomComponent},
-      //    { path: 'contact-us', component: ContactUsComponent},
-      //    { path: 'resources', component: ResourcesComponent},
-      //    { path: 'dangers', component: HiddendangersComponent},
-      //    // { path: 'donate', component: }
-      //    { path: 'home', component: HomePageComponent},
-      //    { path: '', redirectTo: defaultRoute, pathMatch: 'full' },
-      //    { path: '**', redirectTo: defaultRoute, pathMatch: 'full' }
-      //  ])
 })
 export class AppModule { }
