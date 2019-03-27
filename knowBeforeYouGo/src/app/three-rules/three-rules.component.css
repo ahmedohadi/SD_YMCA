@@ -12,8 +12,8 @@ div {
   text-align: center;
   border: .05em solid rgb(63, 56, 56);
   color: white;
-  font-family: Verdana;
-  font-size: 75%;
+  font-family: Cachet;
+  font-size: 85%;
 }
 
 .borderProp {
@@ -31,6 +31,7 @@ h1 {
 }
 
 .titleNames {
+  font-family: Cachet;
   padding-top: 1.3em;
   padding-left: .4em;
   color: cornsilk;
@@ -44,16 +45,18 @@ p {
 
 .text {
   display: inline-block;
+  font-family: Cachet;
   margin-top: -1em;
   text-align: center;
-  font-size: 90%;
+  font-size: 110%;
 }
 
 .lastTitle {
   padding-top: .7em;
   padding-left: .3em;
   color: cornsilk;
-  font-size: 120%;
+  font-family: Cachet;
+  font-size: 130%;
   text-align: center;
 }
 

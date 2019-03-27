@@ -5,13 +5,16 @@
   padding-right: .2em;
 }
 
-@media (max-width: 50em) {
+@media all and (max-width: 70em) {
   .new-button {
     display: none;
   }
+  body {
+    background: none;
+  }
 }
 
-.background-img {
+body {
   background-image: url('assets/wavywater.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;

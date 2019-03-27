@@ -1,0 +1,54 @@
+.body {
+  background-color: white;
+}
+
+.list-group{
+  flex-direction: row;
+}
+
+.list-group-item {
+  background-image: linear-gradient(rgb(17, 17, 138), rgb(3, 70, 172));
+  border: .06em solid white;
+  padding-left: 1.6em;
+  padding-right: 1.6em;
+}
+
+.therules {
+  padding-top: 1em;
+  color: white;
+  font-family: Cachet;
+}
+
+strong {
+  font-size: 230% !important;
+  font-family: Cachet;
+  color: rgba(144, 250, 245, 0.527);
+  padding-right: .4em;
+}
+
+h4 {
+  font-family: Cachet;
+  color: cornsilk;
+  font-size: 105%;
+}
+
+@media (max-width: 50em) {
+  .body {
+    resize: both;
+    overflow: auto;
+  }
+  .therules{
+    font-size: 70%;
+  }
+  h4 {
+    font-size: 80%;
+  }
+  strong {
+    padding-right: 1.4em;
+    font-size: 170%;
+  }
+  .list-group-item {
+    padding-left: .7em;
+    padding-right: .7em;
+  }
+}
