@@ -1,17 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 .new-button{
   background-color: white;
-  padding-left: .2em;
-  padding-right: .2em;
-}
-
-@media all and (max-width: 70em) {
-  .new-button {
-    display: none;
-  }
-  body {
-    background: none;
-  }
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
 body {

@@ -16,11 +16,10 @@
   border: .06em solid white;
   padding-left: 2em;
   padding-right: 2em;
-  margin-bottom: -1em;
 }
 
 .therules {
-  padding-top: 1em;
+  padding-top: 1.75em;
   color: white;
   font-family: Cachet;
 }
@@ -36,6 +35,7 @@ h4 {
   font-family: Cachet;
   color: cornsilk;
   font-size: 105%;
+  padding-top: .7em;
 }
 
 @media (max-width: 50em) {
