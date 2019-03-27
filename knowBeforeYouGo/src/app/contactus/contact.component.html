@@ -1,21 +1,21 @@
 <app-navbar></app-navbar>
 <app-three-top></app-three-top>
 <div class="container bg-light">
-<div class="field-media-image"> <img src="../../assets/contactUS.png"
-   width="900" height="260" typeof="foaf:Image" /></div>
 <div class="contact-us" id="secondary-header-img-area">
   <h1>Contact Us</h1>
   <p>If you would like to donate, volunteer or sponsor a
 water safety presentation just fill out the form below or email <a href="mailto:KBYG@childrens.com">KBYG@childrens.com</a></p>
 </div>
-<div itemscope="" itemtype="http://schema.org/LocalBusiness">
+
+<!-- <div itemscope="" itemtype="http://schema.org/LocalBusiness">
 <h2 class="headline"><strong itemprop="name">YMCA Of Metropolitan Dallas <span>- President's Office</span></strong></h2>
   <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
     <span itemprop="streetAddress">601 N Akard St.</span><br /><span itemprop="addressRegion">Dallas, TX 75201</span>
   </div>
 <p> Tel: <span itemprop="telephone"><a href="tel:+12148809622">(214) 880-9622</a></span><br />
 Fax: <span itemprop="fax"><a href="fax:+12148713014">(214) 871-3014</a></span><br /></p>
-</div>
+</div> -->
+
 <h3>Questions?</h3>
 <p>Complete this form and a YMCA representative will contact you shortly.</p>
 <form>
@@ -23,8 +23,8 @@ Fax: <span itemprop="fax"><a href="fax:+12148713014">(214) 871-3014</a></span><b
   <label for="inputname">Full Name</label>
 <span class="form-required" title="This field is required.">*</span>
   <input type="name" class="form-control" id="inputname" placeholder="Name">
-
 </div>
+
   <div class="form-group">
 <label for="inputemail">Email address</label>
 <span class="form-required" title="This field is required.">*</span>
@@ -35,52 +35,68 @@ Fax: <span itemprop="fax"><a href="fax:+12148713014">(214) 871-3014</a></span><b
 <span class="form-required" title="This field is required.">*</span>
 <input type="zip" class="form-control" id="zipcode" placeholder="ZipCode">
   </div>
-<div id="input-field-div">
- <label for="member">Are you a Member </label>
-<span class="form-required" title="This field is required.">*</span>
-  <select name="member" id="member" class="select-input-list">
+
+  <div class="form-group">
+<div class="js-form-item form-item js-form-type-select form-item-find- js-form-item-member-">
+  <label for="edit-member-">Are you a Member </label>
+  <span class="form-required" title="This field is required."> *</span>
+  <select data-drupal-selector="edit-member-" id="edit-member-" name="member" class="form-select form-control text">
     <option value="">Select Yes or No</option>
     <option value="yes">Yes</option>
     <option value="no">No</option>
   </select>
 </div>
-  <div id="input-field-div">
-<label for="findus">How did you hear about us? </label>
-<span class="form-required" title="This field is required.">*</span>
-    <select name="find" id="find" class="select-input-list">
-      <option value="">Please Select How You Found Us</option>
-      <option value="website">Media</option>
-      <option value="radio">Radio</option>
-      <option value="outdoor">Outdoor Board</option>
-      <option value="brochure">Brochure</option>
-      <option value="ymca">YMCA Facility</option>
-      <option value="friend">Friend or Family</option>
-      <option value="other">Other</option>
-    </select>
   </div>
+
+   <div class="form-group">
+<div class="js-form-item form-item js-form-type-select form-item-find- js-form-item-find-">
+  <label for="edit-find-">How did you hear about us?</label>
+  <span class="form-required" title="This field is required."> *</span>
+  <select data-drupal-selector="edit-find-" id="edit-find-" name="find" class="form-select form-control text">
+    <option value="">Please Select How You Found Us</option>
+    <option value="website">Media</option>
+    <option value="radio">Radio</option>
+    <option value="outdoor">Outdoor Board</option>
+    <option value="brochure">Brochure</option>
+    <option value="ymca">YMCA Facility</option>
+    <option value="friend">Friend or Family</option>
+    <option value="other">Other</option>
+  </select>
+</div>
+</div>
+
+<div class="form-group">
 <div class="js-form-item form-item js-form-type-select form-item-choose-your-ymca-branch- js-form-item-choose-your-ymca-branch-">
-  <label for="edit-choose-your-ymca-branch-">Choose your YMCA branch:</label>
-<span class="form-required" title="This field is required.">*</span>
+  <label for="edit-choose-your-ymca-branch-">Choose your YMCA branch</label>
+<span class="form-required" title="This field is required."> *</span>
   <select data-drupal-selector="edit-choose-your-ymca-branch-" id="edit-choose-your-ymca-branch-" name="choose_your_ymca_branch_"
     class="form-select form-control text">
     <option value="" selected="selected">- None -</option>
+    <option value="Coppell Family YMCA">Coppell Family YMCA</option>
+    <option value="Cross Timbers Family YMCA">Cross Timbers Family YMCA</option>
     <option value="Grand Prairie Family YMCA">Grand Prairie Family YMCA</option>
     <option value="Irving Family YMCA">Irving Family YMCA</option>
     <option value="J.E.R. Chilton YMCA at Rockwall">J.E.R. Chilton YMCA at Rockwall</option>
     <option value="Lake Highlands Family YMCA">Lake Highlands Family YMCA</option>
+    <option value="Lakewest Family YMCA">Lakewest Family YMCA</option>
+    <option value="McKinney Family YMCA">McKinney Family YMCA</option>
+   <option value="Moody Family YMCA">Moody Family YMCA</option>
     <option value="Moorland Family YMCA">Moorland Family YMCA</option>
     <option value="Oak Cliff Family YMCA">Oak Cliff Family YMCA</option>
-    <option value="Park South Family YMCA">Park South Family YMCA</option>
     <option value="Richardson Family YMCA">Richardson Family YMCA</option>
     <option value="T. Boone Pickens YMCA">T. Boone Pickens YMCA</option>
     <option value="Town North Family YMCA">Town North Family YMCA</option>
     <option value="Waxahachie Family YMCA">Waxahachie Family YMCA</option>
+    <option value="White Rock Family YMCA">White Rock Family YMCA</option>
   </select>
 </div>
-<div id="input-field-div">
-<label for="inquiry"> Reason for Inquiry</label>
-<span class="form-required" title="This field is required.">*</span>
-  <select name="inquiry" id="inquiry" class="select-input-list">
+</div>
+
+<div class="form-group">
+<div class="js-form-item form-item js-form-type-select form-item-inquiry- js-form-item-inquiry-">
+  <label for="edit-inquiry-">Reason for Inquiry</label>
+  <span class="form-required" title="This field is required."> *</span>
+  <select data-drupal-selector="edit-inquiry-" id="edit-inquiry-" name="inquiry_" class="form-select form-control text">
     <option value="">Select a Reason For Contacts</option>
     <option value="general">General Question/Feedback</option>
     <option value="presentation">Presentation Request</option>
@@ -91,6 +107,8 @@ Fax: <span itemprop="fax"><a href="fax:+12148713014">(214) 871-3014</a></span><b
     <option value="other">Other</option>
   </select>
 </div>
+</div>
+
 <div class="form-group">
   <label for="message-text" class="col-form-label">Message/Comments</label>
 <span class="form-required" title="This field is required.">*</span>
@@ -98,6 +116,7 @@ Fax: <span itemprop="fax"><a href="fax:+12148713014">(214) 871-3014</a></span><b
 <p>*required fields</p>
 </div>
   <button type="submit" class="btn btn-primary">Submit Request</button>
+  <br>
 </form>
 </div>
 <app-footer></app-footer>

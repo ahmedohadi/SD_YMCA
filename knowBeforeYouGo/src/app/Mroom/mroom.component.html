@@ -1,34 +1,56 @@
 <app-navbar></app-navbar>
 <app-three-top></app-three-top>
 <div class = "container bg-light">
-<div class="field-media-image"> <img src="../../assets/mroom.png" width="900" height="210" typeof="foaf:Image" /></div>
 <div class="media-room" id="secondary-header-img-area">
   <div>
-  <h1>Media Room</h1>
   <h2>Media Inquires</h2>
 <p>For media inquires, please email<a href="mailto:mediarelations@childrens.com"> mediarelations@childrens.com</a></p>
 </div>
-<div class = "media-room" id="tvspots1">
-  <h2>TV Spots</h2>
-<iframe width="600" height="315" src="https://www.youtube.com/embed/G3VcChB4C0o">
-  <figcaption class="figure-caption">Know Before You Go TV Spot (:30) – English</figcaption>
-</iframe>
-<br>
+
+<div class="Viddiv">
+  <h2 class="media-room">Media Room</h2>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <iframe width="65%" height="500" src="https://www.youtube.com/embed/G3VcChB4C0o"></iframe>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Know Before You Go TV Spot (:30) – English</h5>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <iframe width="65%" height="500" src="https://www.youtube.com/embed/ZNZyAgDnDcU"></iframe>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Know Before You Go TV Spot (:30) – Spanish</h5>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <iframe width="65%" height="500" src="https://www.youtube.com/embed/VfO2HXWxB04"></iframe>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Children’s Health on Good Morning Texas: Water Safety</h5>
+      </div>
+    </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
 </div>
 
-<div class="media-room" id="tvspots2">
-<iframe width="600" height="315" src="https://www.youtube.com/embed/ZNZyAgDnDcU">
-  <figcaption class="figure-caption">Know Before You Go TV Spot (:30) – Spanish</figcaption>
-</iframe>
-<br>
-</div>
 
-<div class = "media-room" id="safety">
-<iframe width="600" height="315" src="https://www.youtube.com/embed/VfO2HXWxB04">
-<figcaption class="figure-caption">Children’s Health on Good Morning Texas: Water Safety</figcaption>
-</iframe>
-<br>
-</div>
 </div>
 </div>
 
