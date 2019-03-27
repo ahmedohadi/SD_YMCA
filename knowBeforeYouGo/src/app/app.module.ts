@@ -17,6 +17,7 @@ import { ResourcesComponent } from './resources/recources.component';
 import { QuizzlerService } from './drowning-prevention/quizzler.service';
 import { ThreeRulesComponent } from './three-rules/three-rules.component';
 import { HiddendangersComponent } from './hiddendangers/hiddendangers.component';
+import { ThreeTopComponent } from './three-top/three-top.component';
 
 const defaultRoute: Routes = [
   { path: '', component: HomePageComponent},
@@ -42,6 +43,7 @@ const defaultRoute: Routes = [
       ResourcesComponent,
       ThreeRulesComponent,
       HiddendangersComponent,
+      ThreeTopComponent
    ],
    imports: [
       BrowserModule,

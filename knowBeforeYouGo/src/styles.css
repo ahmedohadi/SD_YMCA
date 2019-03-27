@@ -1,13 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 .new-button{
   background-color: white;
-  padding-left: .5em;
-  margin-left: -.5em;
-  margin-right: .5em;
+  padding-left: .2em;
+  padding-right: .2em;
 }
 
-@media (max-width: 50em) {
+@media all and (max-width: 70em) {
   .new-button {
     display: none;
   }
+  body {
+    background: none;
+  }
+}
+
+body {
+  background-image: url('assets/wavywater.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
 }

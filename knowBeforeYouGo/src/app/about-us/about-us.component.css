@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Cachet;
+  src:url("../../assets/CachetStd-Medium.otf") format("opentype");
+}
+
 #top-img {
   width:100%;
   height:8em;
@@ -16,9 +21,10 @@
 .top-left {
   position: absolute;
   padding-left: .7em;
-  font-size: 230%;
+  font-size: 250%;
   font-family: Cachet;
   color: rgb(52, 122, 189);
+  padding-bottom: -.5em;
 }
 
 h3 {
@@ -26,7 +32,7 @@ h3 {
 }
 
 .intro, .mission, .history {
-  font-size: 120%;
+  font-size: 110%;
   margin-left: 1.8em;
   padding-right: 1.4em;
   padding-bottom: 2em;
