@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Cachet;
+  src:url("../../assets/CachetStd-Medium.otf") format("opentype");
+}
+
 .body {
   background-color: white;
 }
@@ -9,8 +14,8 @@
 .list-group-item {
   background-image: linear-gradient(rgb(17, 17, 138), rgb(3, 70, 172));
   border: .06em solid white;
-  padding-left: 1.6em;
-  padding-right: 1.6em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .therules {
