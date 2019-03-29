@@ -45,6 +45,4 @@ export class DrowningPreventionComponent implements OnInit {
   onAnimate() {
     this.state === 'normal' ? this.state = 'highlighted' : this.state = 'normal';
   }
-
-
 }
