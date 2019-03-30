@@ -17,7 +17,10 @@
             "tsConfig": "src/tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
 
-            "assets": ["apps/know-before-you-go/src/assets", "apps/know-before-you-go/src/favicon.ico"],
+            "assets": [
+              "src/assets",
+              "src/favicon.ico"
+            ],
 
             "styles": [
               "src/styles.css",
