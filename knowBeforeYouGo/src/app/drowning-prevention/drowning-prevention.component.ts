@@ -148,7 +148,6 @@ validator6 = false;
     console.log('tracker', this.imgTracker);
     this.imgTracker++;
 }
-
 reset() {
   this.imgTracker = 0;
   this.imgArr.length = 0;
