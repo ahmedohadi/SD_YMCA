@@ -48,10 +48,6 @@ export class DrowningPreventionComponent implements OnInit {
 @ViewChild('local6') elemRef6: ElementRef;
 @ViewChild('local7') elemRef7: ElementRef;
 
-
-
-
-
 imgArr = [];
 imgTracker = 0;
 
@@ -166,11 +162,9 @@ validator7 = false;
     }
     reset() {
       this.imgTracker = 0;
-    this.imgArr.length = 0;
+      this.imgArr.length = 0;
   }
 }
-
-
 
 // onAnimate() {
   //   this.state === 'normal' ? this.state = 'highlighted' : this.state = 'normal';
