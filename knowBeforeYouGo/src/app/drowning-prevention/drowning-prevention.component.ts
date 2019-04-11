@@ -43,9 +43,9 @@ export class DrowningPreventionComponent implements OnInit {
 @ViewChild('local1') elemRef1: ElementRef;
 @ViewChild('local2') elemRef2: ElementRef;
 @ViewChild('local3') elemRef3: ElementRef;
-@ViewChild('local3') elemRef4: ElementRef;
-@ViewChild('local3') elemRef5: ElementRef;
-@ViewChild('local3') elemRef6: ElementRef;
+@ViewChild('local4') elemRef4: ElementRef;
+@ViewChild('local5') elemRef5: ElementRef;
+@ViewChild('local6') elemRef6: ElementRef;
 
 
 
@@ -60,6 +60,8 @@ validator3 = false;
 validator4 = false;
 validator5 = false;
 validator6 = false;
+// validator7 = false;
+
 
 
 
@@ -134,7 +136,7 @@ validator6 = false;
       this.validator6 = false;
 
     } else if (this.imgTracker === this.imgArr[5]) {
-      this.rend.setStyle(this.elemRef6.nativeElement, 'backgroundImage', 'url(./../assets/Whenyourpoolisnotinuse.jpeg)');
+      this.rend.setStyle(this.elemRef6.nativeElement, 'backgroundImage', 'url(./../assets/Whenyourpoolisnotinuse.jpg)');
       this.validator = false;
       this.validator1 = false;
       this.validator2 = false;
