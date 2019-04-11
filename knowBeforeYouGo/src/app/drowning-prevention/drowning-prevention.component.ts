@@ -83,7 +83,7 @@ validator7 = false;
 
     if (this.imgTracker === this.imgArr[0]) {
 
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(./../../../assets/DrowningStatistics.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/DrowningStatistics.jpg)');
       this.validator0 = false;
       this.validator1 = true;
       this.validator2 = false;
@@ -95,7 +95,7 @@ validator7 = false;
 
 
     } else if (this.imgTracker === this.imgArr[1]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(./../../../assets/childrenIncreased.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/childrenIncreased.jpg)');
       this.validator0 = false;
       this.validator1 = false;
       this.validator2 = true;
@@ -107,7 +107,7 @@ validator7 = false;
 
 
     } else if (this.imgTracker === this.imgArr[2]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(./../../../assets/poolSafteyTips.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/poolSafteyTips.jpg)');
       this.validator0 = false;
       this.validator1 = false;
       this.validator2 = false;
@@ -119,7 +119,7 @@ validator7 = false;
 
 
     } else if (this.imgTracker === this.imgArr[3]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(./../../../assets/preparToSwim.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/preparToSwim.jpg)');
       this.validator0 = false;
       this.validator1 = false;
       this.validator2 = false;
@@ -131,7 +131,7 @@ validator7 = false;
 
 
     } else if (this.imgTracker === this.imgArr[4]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(./../../../assets/Whenyourpoolisbeingused.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/Whenyourpoolisbeingused.jpg)');
       this.validator0 = false;
       this.validator1 = false;
       this.validator2 = false;
@@ -143,7 +143,7 @@ validator7 = false;
 
 
     } else if (this.imgTracker === this.imgArr[5]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(./../../../assets/Whenyourpoolisnotinuse.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/Whenyourpoolisnotinuse.jpg)');
       this.validator0 = false;
       this.validator1 = false;
       this.validator2 = false;
