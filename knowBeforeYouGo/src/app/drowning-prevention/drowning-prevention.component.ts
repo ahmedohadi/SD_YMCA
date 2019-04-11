@@ -134,7 +134,7 @@ validator6 = false;
       this.validator6 = false;
 
     } else if (this.imgTracker === this.imgArr[5]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(./../assets/Whenyourpoolisnotinuse.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(./../assets/Whenyourpoolisnotinuse.jpeg)');
       this.validator = false;
       this.validator1 = false;
       this.validator2 = false;
