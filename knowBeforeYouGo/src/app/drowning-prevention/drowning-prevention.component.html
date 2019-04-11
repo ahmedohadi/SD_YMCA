@@ -19,11 +19,14 @@
 
 <button (click)="updaetImages()" class="btn btn-primary mb-3">Explore >>></button>
 
-<div #local class="carsouel"></div>
+<!--carsouel or imgages-->
+<div #local0 class="carsouel"></div>
 
 <h3 class="text-dark">Facts</h3>
 
-<div #local1 *ngIf="validator" class="image">
+<!--carsouel or bulleted data-->
+
+<div #local1 *ngIf="validator0" class="image">
 
   <ul>
     <li>welcome</li>
@@ -138,7 +141,7 @@
 </div>
 
 
-<div #local6 *ngIf="validator6" class="image">
+<div #local7 *ngIf="validator6" class="image">
   <ul>
       <h5>When your pool is not in use:</h5>
       <li>Make sure all fence gates and doors leading to the pool area are self-closing and self-latching.</li>
@@ -148,7 +151,7 @@
       <li>Use an approved safety cover and non-climbable fence.</li>
       <li>Drain standing water from pool covers.</li>
       <li>Keep chairs and other climbable items away from the fence.</li>
-    </ul>
+  </ul>
     <button type="button" class="btn btn-primary ml-3 mb-3" data-toggle="modal" data-target="#exampleModalCenter">
         Test Your Knowlege
       </button>
