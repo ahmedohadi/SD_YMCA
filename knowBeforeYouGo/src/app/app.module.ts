@@ -50,7 +50,8 @@ const defaultRoute: Routes = [
       FormsModule,
       CommonModule,
       BrowserAnimationsModule,
-      RouterModule.forRoot(defaultRoute)
+      RouterModule.forRoot(defaultRoute),
+      FormsModule
    ],
    providers: [],
    bootstrap: [
