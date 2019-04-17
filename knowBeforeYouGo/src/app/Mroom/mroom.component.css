@@ -1,0 +1,32 @@
+
+.english_video{
+
+  width: 100%;
+  height: 10cm;
+}
+
+.media-room
+{
+  text-align: left;
+}
+.container{
+  background-color: white;
+}
+.spanish_video {
+
+  width: 100%;
+  height: 10cm;
+}
+
+.tv_video {
+
+  width: 100%;
+  height: 10cm;
+}
+
+.body {
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+
