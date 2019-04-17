@@ -8,10 +8,3 @@
   padding-bottom: .5em;
 }
 
-body {
-  background-image: url('assets/water-background.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 100%;
-}
