@@ -3,11 +3,13 @@
 
   width: 100%;
   height: 10cm;
+  font-family: Cachet;
 }
 
 .media-room
 {
   text-align: left;
+  font-family: Cachet;
 }
 .container{
   background-color: white;
@@ -16,17 +18,20 @@
 
   width: 100%;
   height: 10cm;
+  font-family: Cachet;
 }
 
 .tv_video {
 
   width: 100%;
   height: 10cm;
+  font-family: Cachet;
 }
 
 .body {
   background-color: white;
   color: white;
   text-align: center;
+  font-family: Cachet;
 }
 
