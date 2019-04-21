@@ -13,9 +13,8 @@
 
 .list-group-item {
   background-image: linear-gradient(rgb(17, 17, 138), rgb(3, 70, 172));
-  border: .06em solid white;
-  padding-left: 2em;
-  padding-right: 2em;
+  border: .07em solid white;
+  width: 100%;
 }
 
 .therules {
@@ -51,11 +50,11 @@ h4 {
     font-size: 80%;
   }
   strong {
-    padding-right: 1.4em;
-    font-size: 170%;
+    padding-right: 1em;
+    font-size: 180%;
   }
   .list-group-item {
-    padding-left: .7em;
-    padding-right: .7em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
   }
 }
