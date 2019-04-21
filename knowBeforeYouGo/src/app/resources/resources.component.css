@@ -17,6 +17,10 @@ p{
   display: inline-block;
 }
 
+.titleBanner{
+  color: white;
+}
+
 .carousel-indicators{
   position: static;
 }
@@ -27,34 +31,38 @@ p{
 }
 
 .resources{
-  background: #eeeeee;
+  background: #8EC1E8;
   text-align: center;
+}
+
+.physical{
+  background-color: #eeeeee;
 }
 
 .titlerec{
   padding-left: 1em;
 }
 
-
-.column{
-  float: left;
-  width: 50%;
-  padding-left: 1%;
+.Viddiv{
+  background-color: #8EC1E8;
+  color: white;
 }
 
+/*
 .vids{
-  content: "";
-  display: table;
-  clear: both;
-  margin: 0 auto;
-  padding-left: -1%;
+  color: white;
+  margin: auto;
+  column-count: 1;
+  width: 100%;
+  text-align: center;
+}
+*/
+
+.books{
+  background-color: #eeeeee;
+  text-align: center;
 }
 
-iframe{
-  height: 200px;
-  width: 350px;
-
-}
 
  .WSvids, .WSbooks{
   text-align: center;

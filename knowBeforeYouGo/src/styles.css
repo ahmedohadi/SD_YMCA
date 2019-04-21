@@ -1,9 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 .new-button{
   background-color: white;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding-left: .5em;
+  margin-left: -.5em;
+  margin-right: .5em;
+}
+
+@media (max-width: 50em) {
+  .new-button {
+    display: none;
+  }
 }

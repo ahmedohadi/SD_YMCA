@@ -1,12 +1,8 @@
-@font-face {
-  font-family: Cachet;
-  src:url("../../assets/CachetStd-Medium.otf") format("opentype");
-}
-
 #top-img {
-  size:100%;
+  width:100%;
   height:8em;
   object-fit: cover;
+  opacity: .65;
 }
 
 
@@ -20,11 +16,9 @@
 .top-left {
   position: absolute;
   padding-left: .7em;
-  font-size: 250%;
-  font-weight: bold;
+  font-size: 230%;
   font-family: Cachet;
-  color: black;
-  padding-bottom: -.5em;
+  color: rgb(52, 122, 189);
 }
 
 h3 {
@@ -33,25 +27,21 @@ h3 {
 
 .intro, .mission, .history {
   font-size: 110%;
-  margin-left: 1.6em;
+  margin-left: 1.8em;
   padding-right: 1.4em;
-  padding-bottom: 2em;
-  font-family: Cachet;
-  line-height: 1.8;
-}
-
-.history {
-  padding-bottom: 2.5em;
+  padding-bottom: 2.7em;
+  font-family: Verdana;
+  line-height: 1.3;
 }
 
 .ourmission, .historyH {
   padding-top: 1.5em;
-  font-size: 250%;
+  font-size: 150%;
   font-weight: bold;
-  margin-left: .7em;
+  margin-left: 1.5em;
   font-family: Cachet;
   line-height:1.5;
-  color: black;
+  color: white;
 }
 
 #safety {
@@ -65,10 +55,31 @@ html {
   overflow-y: scroll;
 }
 
+#first-section {
+  background: rgba(63, 194, 211, 0.74);
+}
+
+#second-section {
+  background: rgba(214, 141, 5, 0.61);
+}
+
+aside {
+  float: right;
+  margin-left: .7em;
+  margin-bottom: .5em;
+}
+
+@media (max-width: 50em) {
+  aside {
+    display: none;
+  }
+}
+
 @media (max-width: 45em) {
   img {
     padding-top: 5em;
-    width: 100%;
+    size: 100%;
     height: auto;
+    display: block;
   }
 }

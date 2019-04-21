@@ -1,7 +1,3 @@
-@font-face {
-  font-family: Cachet;
-  src:url("../../assets/CachetStd-Medium.otf") format("opentype");
-}
 
 .nav-link{color: #003366!important;}
 .custom-toggler.navbar-toggler {border-color: #003366;}
@@ -17,8 +13,4 @@
 
 .custom-navbar {
   border: 0.05em solid rgba(0, 0, 255, 0.555);
-}
-
-.navbar {
-  font-family: Cachet;
 }
