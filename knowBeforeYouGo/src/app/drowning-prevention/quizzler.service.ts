@@ -1,5 +1,7 @@
-import { Component, Input } from '@angular/core';
+// import { Injectable } from '@angular/core';
+import swal from 'sweetalert';
 
+// @Injectable()
 export class QuizzlerService {
 
 pickedAnswer: Boolean = false;
@@ -7,41 +9,39 @@ tracker = 0;
 progBar = 0;
 score = 0;
 
+answer4 = 'Children and inexperienced swimmers should wear life jackets whenever in, on and around the water, even if a lifeguard is present';
+answer1 = 'test';
 
 questions = [
   {
-    q: 'question 1',
-    a: true
-  },
-  {
-    q: 'question 2',
-    a: true
-  },
-  {
-    q: 'question 3',
+    q: 'Children under one years of age most often drown in a backyard pool',
     a: false
   },
   {
-    q: 'question 4',
+    q: 'Males are more at risk for drowning than females',
+    a: true
+  },
+  {
+    q: 'Parents, babysitters, guardians and anyone over 14 should learn CPR',
+    a: true
+  },
+  {
+    q: 'Children and inexperienced swimmers under 18 should wear life jackets whenever in, on and around the water, even if a lifeguard is present',
     a: false
   },
   {
-    q: 'question 5',
+    q: 'Keep constant visual contact with children in the pool. Touch supervision is essential for small children and those who can’t swim',
     a: true
   },
   {
-    q: 'question 6',
+    q: 'Make sure all fence gates and doors leading to the pool area are self-closing and self-latching',
     a: true
   },
-  {
-    q: 'question 7',
-    a: true
-  },
-  {
-    q: 'question 8',
-    a: true
-  }
 ];
+
+constructor() {}
+
+// corrent answers trigger (button)
 
 onTrue () {
   this.trueAnswer();
@@ -51,7 +51,11 @@ onTrue () {
     console.log('finished!');
     this.rest();
   }
+  console.log(this.tracker);
 }
+
+// incorrect answers trigger (button)
+
 
 onFalse() {
   this.falseAnswer();
@@ -59,37 +63,55 @@ onFalse() {
 
   if (this.tracker >= this.questions.length) {
     console.log('finished!');
-    // this.progBar = 0;
-    // this.tracker = 0;
     this.rest();
   }
+  console.log(this.tracker);
 }
+
+// correct answer implementaion:
 
 trueAnswer() {
   if (this.questions[this.tracker].a !== this.pickedAnswer) {
     this.pickedAnswer = true;
-    console.log('CORRECT!');
+    // console.log('CORRECT!');
+    swal("Good job!", "you got this right!", "success");
     this.progressBar();
     this.score++;
 
+  } else if (this.tracker === 0 && this.pickedAnswer === false) {
+    swal("Oops!", this.answer1, "error");
+
+  } else if (this.tracker === 3 && this.pickedAnswer === false) {
+    // alert(this.answer4);
+    swal("Oops!", this.answer4, "error");
+
   } else {
     this.pickedAnswer = false;
-    console.log('INCORRECT!');
+    // console.log('INCORRECT!');
+    swal("Oops!", "Wrong!", "error");
+
     this.progressBar();
     }
     this.pickedAnswer = false;
-}
+  }
+
+// false answers implementation
 
 falseAnswer() {
   this.pickedAnswer = true;
   if (this.questions[this.tracker].a === this.pickedAnswer) {
     this.pickedAnswer = false;
-    console.log('INCORRECT!');
+    // console.log('INCORRECT!');
+    swal("Oops!", "Wrong!", "error");
+
     this.progressBar();
 
   } else {
     this.pickedAnswer = true;
-    console.log('CORRECT!');
+    // console.log('CORRECT!');
+
+    swal("Good job!", "you got this right!", "success");
+
     this.progressBar();
     this.score++;
   }
@@ -101,26 +123,12 @@ progressBar() {
 
 rest() {
   if (this.tracker >= this.questions.length) {
-    alert('You scored ' + this.score + '/' + this.questions.length);
+    swal('You scored ' + this.score + '/' + this.questions.length);
     console.log('your score is: ', this.score);
     this.tracker = 0;
     this.score = 0;
     this.progBar = 0;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

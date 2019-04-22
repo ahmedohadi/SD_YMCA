@@ -5,38 +5,50 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col bg-light">
-      <h1 class="text-danger">Drowning Prevention</h1>
+      <h1 class="text-dark">DROWNING PREVENTION</h1>
 
                                        <!-- Drowning Facts Section -->
 
-      <h3 class="text-dark">Drwoning Facts:</h3>
-
       <p class="text-justify text-dark">Drowning is preventable and requires everyone doing their part. Taking swimming lessons, wearing Coast Guard approved flotation devices and adequate adult supervision are essential to drowning prevention.</p>
 
-      <h5 class="text-dark">Drowning Statistics:</h5>
+
+      <h1 *ngIf="imgTracker === 1" class="text-dark">Drowning Statistics:</h1>
+      <h1 *ngIf="imgTracker === 2" class="text-dark">Children at Increased Risk:</h1>
+      <h1 *ngIf="imgTracker === 3" class="text-dark">Pools Saftey Tips:</h1>
+      <h1 *ngIf="imgTracker === 4" class="text-dark">Pools Saftey Tips:</h1>
+      <h1 *ngIf="imgTracker === 5" class="text-dark">Pools Saftey Tips:</h1>
+
+
+      <!-- <h1 *ngIf="imgTracker === 4" class="text-dark">Poos Saftey Tips:</h1> -->
+
+
+
 
                                            <!-- carousel 1 START -->
 
-<button (click)="updaetImages()" class="btn btn-primary mb-3">Explore >>></button>
+<button (click)="nextImages()" class="btn btn-primary float-right mb-3 rounded-0">>>></button>
+<button (click)="previousImages()" class="btn btn-primary float-left mb-3 rounded-0"><<<</button>
+
 
 <!--carsouel or imgages-->
+
 <div #local0 class="carsouel"></div>
 
-<h3 class="text-dark">Facts</h3>
+<h1 *ngIf="imgTracker >= 1 && imgTracker <= 5" class="text-dark">FACTS</h1>
 
 <!--carsouel or bulleted data-->
 
 <div #local1 *ngIf="validator0" class="image">
 
-  <ul>
+  <!-- <ul>
     <li>welcome</li>
     <li>welcome</li>
     <li>welcome</li>
-  </ul>
+  </ul> -->
 
 </div>
 
-<div #local2 *ngIf="validator1" class="image">
+<div #local2 *ngIf="validator1 && this.imgTracker === 1" class="image">
   <ul>
     <!-- <li>one</li>
     <li>one</li>
@@ -77,6 +89,7 @@
 </div>
 
 <div #local4 *ngIf="validator3" class="image">
+  <h5 *ngIf="imgTracker === 3" class="text-dark">PREPARE TO SWIM:</h5>
   <ul>
     <!-- <li>third</li>
     <li>third</li>
@@ -98,18 +111,19 @@
 <div #local5 *ngIf="validator4" class="image">
 
   <ul>
-      <h5 class="text-dark">Preparing to swim:</h5>
+    <h5 class="text-dark">WHEN YOUR POOL IS BEING USED:</h5>
     <p class="card-text">Here are some helpful water safety tips to keep your pool safe year around</p>
-          <li class="card-text">Assign an adult to actively supervise the pool at all times. Click <a target="_blank" href="#">here</a> to request a free water watcher tag.</li>
-          <li class="card-text">Keep constant visual contact with children in the pool. Touch supervision is essential for small children and those who can’t swim.</li>
-          <li class="card-text">Never leave a child alone in a pool or spa even for a second.</li>
-          <li class="card-text">Teach children how to dial 911 in case of an emergency.</li>
-          <li class="card-text">Keep a telephone near the pool. In case of emergency, dial 911.</li>
-          <li class="card-text">Children and inexperienced swimmers should wear life jackets whenever in, on and around the water, even if a lifeguard is present.</li>
-          <li class="card-text">Keep non-pool toys like big wheels, wagons, tricycles, etc. away from the pool.</li>
-          <li class="card-text">Do not allow diving in the shallow end of the pool.</li>
-          <li class="card-text">All toys should be taken out of the pool when not in use.</li>
-          <li class="card-text">Never allow swimming in an unlit pool after dark.</li>
+
+    <li class="card-text">Assign an adult to actively supervise the pool at all times. Click <a target="_blank" href="#">here</a> to request a free water watcher tag.</li>
+    <li class="card-text">Keep constant visual contact with children in the pool. Touch supervision is essential for small children and those who can’t swim.</li>
+    <li class="card-text">Never leave a child alone in a pool or spa even for a second.</li>
+    <li class="card-text">Teach children how to dial 911 in case of an emergency.</li>
+    <li class="card-text">Keep a telephone near the pool. In case of emergency, dial 911.</li>
+    <li class="card-text">Children and inexperienced swimmers should wear life jackets whenever in, on and around the water, even if a lifeguard is present.</li>
+    <li class="card-text">Keep non-pool toys like big wheels, wagons, tricycles, etc. away from the pool.</li>
+    <li class="card-text">Do not allow diving in the shallow end of the pool.</li>
+    <li class="card-text">All toys should be taken out of the pool when not in use.</li>
+    <li class="card-text">Never allow swimming in an unlit pool after dark.</li>
   </ul>
 
   <button type="button" class="btn btn-primary ml-3 mb-3" data-toggle="modal" data-target="#exampleModalCenter">
@@ -118,32 +132,10 @@
 
 </div>
 
+
 <div #local6 *ngIf="validator5" class="image">
-
-    <ul>
-        <h5>your pool is being used:</h5>
-        <li>Assign an adult to actively supervise the pool at all times. Click here to request a free water watcher tag.</li>
-        <li>Keep constant visual contact with children in the pool. Touch supervision is essential for small children and those who can’t swim.</li>
-        <li>Never leave a child alone in a pool or spa even for a second.</li>
-        <li>Keep a telephone near the pool. In case of emergency, dial 911.</li>
-        <li>Children and inexperienced swimmers should wear life jackets whenever in, on and around the water, even if a lifeguard is present.</li>
-        <li>Keep non-pool toys like big wheels, wagons, tricycles, etc. away from the pool.</li>
-        <li>Do not allow diving in the shallow end of the pool.</li>
-        <li>All toys should be taken out of the pool when not in use.</li>
-        <li>Never allow swimming in an unlit pool after dark.</li>
-
-      </ul>
-
-      <button type="button" class="btn btn-primary ml-3 mb-3" data-toggle="modal" data-target="#exampleModalCenter">
-          Test Your Knowlege
-        </button>
-
-</div>
-
-
-<div #local7 *ngIf="validator6" class="image">
   <ul>
-      <h5>When your pool is not in use:</h5>
+      <h5>WHEN YOUR POOL IS NOT IN USE:</h5>
       <li>Make sure all fence gates and doors leading to the pool area are self-closing and self-latching.</li>
       <li>All latches should be above a child’s reach.</li>
       <li>Restrict a child’s access to the pool when there is not adequate supervision.</li>
@@ -154,7 +146,7 @@
   </ul>
     <button type="button" class="btn btn-primary ml-3 mb-3" data-toggle="modal" data-target="#exampleModalCenter">
         Test Your Knowlege
-      </button>
+    </button>
 </div>
 
 
@@ -162,7 +154,7 @@
 
                                                       <!-- Modal -->
 
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-dismiss='false'>
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -175,13 +167,15 @@
         <!-- <p>Age of 14 is NOT recommended to start learning the CPR?</p> -->
         <!-- <div style="width: 50px; height: 50px;" [@divState]='state'></div> -->
         {{questions[this.quizzlerService.tracker].q}}
-      </div>
+
+      </div> <!-- modal-body ENDS-->
 
       <div class="modal-footer justify-content-between ">
 
         <div class="float-left">
             <progress max="100" [value]="this.quizzlerService.progBar"></progress>
             <P>{{this.quizzlerService.score}} / {{this.quizzlerService.questions.length}}</P>
+
         </div>
 
       <div>
@@ -199,6 +193,7 @@
     </div>
 </div>
   </div>
+
 
       <!-- <button (click)="onAnimate()" type="button" class="btn btn-success">Move</button> -->
 

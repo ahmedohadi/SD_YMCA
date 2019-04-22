@@ -13,7 +13,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResourcesComponent } from './resources/recources.component';
-
+// import swal from 'sweetalert';
 import { QuizzlerService } from './drowning-prevention/quizzler.service';
 import { ThreeRulesComponent } from './three-rules/three-rules.component';
 import { HiddendangersComponent } from './hiddendangers/hiddendangers.component';

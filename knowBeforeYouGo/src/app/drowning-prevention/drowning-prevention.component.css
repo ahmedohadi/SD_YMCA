@@ -4,8 +4,8 @@
 
 .carsouel {
   width: 100%;
-  height: 500px;
-  border: 5px solid black;
+  height: 550px;
+  /* border: 5px solid black; */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   color: black;
@@ -19,5 +19,5 @@
 .image {
   width: 100%;
   padding-top: 8px;
-  border: 5px solid black;
+  /* border: 5px solid black; */
 }
