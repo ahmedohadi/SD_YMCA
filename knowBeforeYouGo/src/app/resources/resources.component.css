@@ -9,6 +9,9 @@ br {
 
 h1, h2, h3{
   font-family: Cachet;
+  font-size: 250%;
+  font-weight: bold;
+  color: black;
 }
 
 p{
@@ -17,28 +20,13 @@ p{
   display: inline-block;
 }
 
-.carousel-indicators{
-  position: static;
-}
-
-.carousel-caption{
-  position: static;
-
-}
-
 .resources{
-  background: #eeeeee;
   text-align: center;
 }
 
-.titlerec{
-  padding-left: 1em;
-}
-
-
 .column{
   float: left;
-  width: 50%;
+  width: 33%;
   padding-left: 1%;
 }
 
@@ -50,9 +38,10 @@ p{
   padding-left: -1%;
 }
 
+
 iframe{
-  height: 200px;
-  width: 350px;
+  height: 340px;
+  width: 600px;
 
 }
 
