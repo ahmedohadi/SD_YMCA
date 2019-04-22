@@ -2,10 +2,22 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-img {
-  height: 600px;
+.carsouel {
+  width: 100%;
+  height: 500px;
+  border: 5px solid black;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: black;
 }
 
-.card-img-top {
-  width: 300px;
+/* div {
+  background-color: white;
+  color: black;
+} */
+
+.image {
+  width: 100%;
+  padding-top: 8px;
+  border: 5px solid black;
 }

@@ -10,35 +10,35 @@ score = 0;
 
 questions = [
   {
-    q: 'Hadi is a geek',
+    q: 'question 1',
     a: true
   },
   {
-    q: 'Hadi needs a job',
+    q: 'question 2',
     a: true
   },
   {
-    q: 'Hadi is lazy!',
+    q: 'question 3',
     a: false
   },
   {
-    q: 'Hadi is wierd',
+    q: 'question 4',
     a: false
   },
   {
-    q: 'Hadi is content',
+    q: 'question 5',
     a: true
   },
   {
-    q: 'Hadi love his family',
+    q: 'question 6',
     a: true
   },
   {
-    q: 'Hadi happy with YMCA',
+    q: 'question 7',
     a: true
   },
   {
-    q: 'Hadi needs a long vacation',
+    q: 'question 8',
     a: true
   }
 ];
@@ -108,4 +108,19 @@ rest() {
     this.progBar = 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
