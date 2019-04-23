@@ -18,6 +18,7 @@ div {
 
 .borderProp {
   border: .05em solid rgb(63, 56, 56);
+  width: 100%;
 }
 
 h1 {
