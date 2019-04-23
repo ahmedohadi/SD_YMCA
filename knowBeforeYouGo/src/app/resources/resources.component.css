@@ -3,9 +3,6 @@
   src:url("../../assets/CachetStd-Medium.otf") format("opentype");
 }
 
-br {
-  margin: 5em;
-}
 
 h1, h2, h3{
   font-family: Cachet;
@@ -15,9 +12,7 @@ h1, h2, h3{
 }
 
 p{
-  padding-left: .5em;
   font-family: Cachet;
-  display: inline-block;
 }
 
 .resources{
