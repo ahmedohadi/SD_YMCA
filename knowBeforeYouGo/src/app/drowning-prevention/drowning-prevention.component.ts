@@ -134,6 +134,7 @@ validator7 = false;
       this.validator6 = false;
       this.validator7 = false;
     } else if (this.imgTracker === this.imgArr[4]) {
+
       this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/poolNotUsed.png)');
       this.validator0 = false;
       this.validator1 = false;
@@ -143,7 +144,6 @@ validator7 = false;
       this.validator5 = true;
       this.validator6 = false;
       this.validator7 = false;
-
 
       this.reset();
     }
@@ -155,30 +155,6 @@ validator7 = false;
 
     }
 
-      // this.validator0 = false;
-      // this.validator1 = false;
-      // this.validator2 = false;
-      // this.validator3 = false;
-      // this.validator4 = false;
-      // this.validator5 = false;
-      // this.validator6 = true;
-      // this.validator7 = false;
-
-      // [4]
-        // else if (this.imgTracker === this.imgArr[4]) {
-    //   this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/poolBeingUsed.png)');
-    //   this.validator0 = false;
-    //   this.validator1 = false;
-    //   this.validator2 = false;
-    //   this.validator3 = false;
-    //   this.validator4 = false;
-    //   this.validator5 = true;
-    //   this.validator6 = false;
-    //   this.validator7 = false;
-    // }
-
-
-
 
 
   previousImages() {
@@ -186,7 +162,7 @@ validator7 = false;
 
     if (this.imgTracker === this.imgArr[0]) {
 
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/DrowningStatistics.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/DrownStatistics.png)');
       this.validator0 = false;
       this.validator1 = true;
       this.validator2 = false;
@@ -198,7 +174,7 @@ validator7 = false;
 
 
     } else if (this.imgTracker === this.imgArr[1]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/childrenIncreased.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/DrwoningIncreasedRisk.png)');
       this.validator0 = false;
       this.validator1 = false;
       this.validator2 = true;
@@ -210,7 +186,7 @@ validator7 = false;
 
 
     } else if (this.imgTracker === this.imgArr[2]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/poolSafteyTips.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/safteyTips.png)');
       this.validator0 = false;
       this.validator1 = false;
       this.validator2 = false;
@@ -222,7 +198,7 @@ validator7 = false;
 
 
     } else if (this.imgTracker === this.imgArr[3]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/preparToSwim.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/poolBeingUsed.png)');
       this.validator0 = false;
       this.validator1 = false;
       this.validator2 = false;
@@ -234,7 +210,7 @@ validator7 = false;
 
 
     } else if (this.imgTracker === this.imgArr[4]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/Whenyourpoolisbeingused.jpg)');
+      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/poolNotUsed.png)');
       this.validator0 = false;
       this.validator1 = false;
       this.validator2 = false;
@@ -243,37 +219,19 @@ validator7 = false;
       this.validator5 = true;
       this.validator6 = false;
       this.validator7 = false;
-
-
-    } else if (this.imgTracker === this.imgArr[5]) {
-      this.rend.setStyle(this.elemRef.nativeElement, 'backgroundImage', 'url(assets/Whenyourpoolisnotinuse.jpg)');
-      this.validator0 = false;
-      this.validator1 = false;
-      this.validator2 = false;
-      this.validator3 = false;
-      this.validator4 = false;
-      this.validator5 = false;
-      this.validator6 = true;
-      this.validator7 = false;
       this.reset();
     }
+
     this.imgTracker--;
-
-
     console.log('length', this.imgArr.length);
     console.log('tracker', this.imgTracker);
     }
 
-  // previousImages() {
-  //   this.imgTracker--;
-  // }
-
-  reset() {
-    this.imgArr.length = 0;
-    this.imgTracker = 0;
-  }
-
-} // end of class
+    reset() {
+      this.imgArr.length = 0;
+      this.imgTracker = 0;
+    }
+  } // end of class
 
 
 // onAnimate() {

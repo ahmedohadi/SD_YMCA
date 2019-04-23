@@ -70,7 +70,7 @@
 </div>
 
 
-<div #local3 *ngIf="validator2" class="image">
+<div #local3 *ngIf="validator2 && this.imgTracker === 2" class="image">
   <ul>
     <!-- <li>two</li>
     <li>two</li>
@@ -88,7 +88,7 @@
     </button>
 </div>
 
-<div #local4 *ngIf="validator3" class="image">
+<div #local4 *ngIf="validator3 && this.imgTracker === 3" class="image">
   <h5 *ngIf="imgTracker === 3" class="text-dark">PREPARE TO SWIM:</h5>
   <ul>
     <!-- <li>third</li>
@@ -108,7 +108,7 @@
     </button>
 </div>
 
-<div #local5 *ngIf="validator4" class="image">
+<div #local5 *ngIf="validator4 && this.imgTracker === 4" class="image">
 
   <ul>
     <h5 class="text-dark">WHEN YOUR POOL IS BEING USED:</h5>
@@ -133,7 +133,7 @@
 </div>
 
 
-<div #local6 *ngIf="validator5" class="image">
+<div #local6 *ngIf="validator5 && this.imgTracker === 5" class="image">
   <ul>
       <h5>WHEN YOUR POOL IS NOT IN USE:</h5>
       <li>Make sure all fence gates and doors leading to the pool area are self-closing and self-latching.</li>
@@ -154,12 +154,12 @@
 
                                                       <!-- Modal -->
 
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-dismiss='false'>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" >
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalCenterTitle">Pool Safty Tips</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
