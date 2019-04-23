@@ -1,10 +1,10 @@
 div {
   height: 40%;
   background-image: linear-gradient(rgb(17, 17, 138), rgb(3, 70, 172));
-  width: 17vw;
+  width: 20vw;
   display: block;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
 .title {

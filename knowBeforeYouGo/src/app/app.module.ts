@@ -13,7 +13,12 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ResourcesComponent } from './resources/recources.component';
+<<<<<<< HEAD
 // import swal from 'sweetalert';
+=======
+import { DonoFrameComponent } from './donoframe/donoframe.component';
+
+>>>>>>> knowBeforeYouGo
 import { QuizzlerService } from './drowning-prevention/quizzler.service';
 import { ThreeRulesComponent } from './three-rules/three-rules.component';
 import { HiddendangersComponent } from './hiddendangers/hiddendangers.component';
@@ -27,7 +32,8 @@ const defaultRoute: Routes = [
   { path: 'events', component: MroomComponent},
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'dangers', component: HiddendangersComponent},
-  { path: 'resources', component: ResourcesComponent}
+  { path: 'resources', component: ResourcesComponent},
+  { path: 'donoframe', component: DonoFrameComponent}
 ];
 
 @NgModule({
@@ -43,7 +49,8 @@ const defaultRoute: Routes = [
       ResourcesComponent,
       ThreeRulesComponent,
       HiddendangersComponent,
-      ThreeTopComponent
+      ThreeTopComponent,
+      DonoFrameComponent
    ],
    imports: [
       BrowserModule,

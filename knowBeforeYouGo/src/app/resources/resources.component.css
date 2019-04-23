@@ -3,66 +3,42 @@
   src:url("../../assets/CachetStd-Medium.otf") format("opentype");
 }
 
-br {
-  margin: 5em;
-}
 
 h1, h2, h3{
   font-family: Cachet;
+  font-size: 250%;
+  font-weight: bold;
+  color: black;
 }
 
 p{
-  padding-left: .5em;
   font-family: Cachet;
-  display: inline-block;
-}
-
-.titleBanner{
-  color: white;
-}
-
-.carousel-indicators{
-  position: static;
-}
-
-.carousel-caption{
-  position: static;
-
 }
 
 .resources{
-  background: #8EC1E8;
   text-align: center;
 }
 
-.physical{
-  background-color: #eeeeee;
+.column{
+  float: left;
+  width: 33%;
+  padding-left: 1%;
 }
 
-.titlerec{
-  padding-left: 1em;
-}
-
-.Viddiv{
-  background-color: #8EC1E8;
-  color: white;
-}
-
-/*
 .vids{
-  color: white;
-  margin: auto;
-  column-count: 1;
-  width: 100%;
-  text-align: center;
-}
-*/
-
-.books{
-  background-color: #eeeeee;
-  text-align: center;
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0 auto;
+  padding-left: -1%;
 }
 
+
+iframe{
+  height: 340px;
+  width: 600px;
+
+}
 
  .WSvids, .WSbooks{
   text-align: center;

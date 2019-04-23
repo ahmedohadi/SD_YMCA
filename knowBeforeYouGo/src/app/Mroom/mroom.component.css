@@ -1,15 +1,37 @@
-.carousel-indicators {
-  position: static;
+
+.english_video{
+
+  width: 100%;
+  height: 10cm;
+  font-family: Cachet;
 }
 
-.carousel-caption {
-  position: static;
+.media-room
+{
+  text-align: left;
+  font-family: Cachet;
+}
+.container{
+  background-color: white;
+}
+.spanish_video {
 
+  width: 100%;
+  height: 10cm;
+  font-family: Cachet;
 }
 
-.Viddiv {
-  background-color: #8EC1E8;
+.tv_video {
+
+  width: 100%;
+  height: 10cm;
+  font-family: Cachet;
+}
+
+.body {
+  background-color: white;
   color: white;
   text-align: center;
+  font-family: Cachet;
 }
 

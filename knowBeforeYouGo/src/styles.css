@@ -7,11 +7,3 @@
   padding-top: .5em;
   padding-bottom: .5em;
 }
-
-body {
-  background-image: url('assets/wavywater.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}

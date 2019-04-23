@@ -21,8 +21,9 @@
   position: absolute;
   padding-left: .7em;
   font-size: 250%;
+  font-weight: bold;
   font-family: Cachet;
-  color: rgb(52, 122, 189);
+  color: black;
   padding-bottom: -.5em;
 }
 
@@ -32,7 +33,7 @@ h3 {
 
 .intro, .mission, .history {
   font-size: 110%;
-  margin-left: 1.8em;
+  margin-left: 1.6em;
   padding-right: 1.4em;
   padding-bottom: 2em;
   font-family: Cachet;
@@ -45,9 +46,9 @@ h3 {
 
 .ourmission, .historyH {
   padding-top: 1.5em;
-  font-size: 160%;
+  font-size: 250%;
   font-weight: bold;
-  margin-left: 1.2em;
+  margin-left: .7em;
   font-family: Cachet;
   line-height:1.5;
   color: black;
