@@ -1,9 +1,50 @@
+@media (min-width: 100px)
+{
+  h1 {font-size:.0000000001rem;} 
+  .title{font-size:.0000000001rem;}
+  .titleNames{font-size:.000000001rem;}
+  .text{font-size:.00000000000000000001rem;}
+  .lastTitle{font-size:.0000000000001rem;}
+} 
+@media (min-width: 200px)
+{
+  h1 {font-size:.01rem;}
+  .title{font-size:.01rem;}
+  .titleNames{font-size:.01rem;}
+  .text{font-size:.01rem;}
+  .lastTitle{font-size:.01rem;}
+}
+@media (min-width: 544px) {  
+  h1 {font-size:.4rem;} 
+  .title{font-size:.4rem;}
+  .titleNames{font-size:.4rem;}
+  .text{font-size:.001rem;}
+  .lastTitle{font-size:.4rem;}
+}
+
+@media (min-width: 768px) {  
+  h1 {font-size:1rem;} 
+  .title{font-size:1rem;}
+  .titleNames{font-size:1rem;}
+  .text{font-size:.5rem;}
+  .lastTitle{font-size:1rem;}
+}
+@media (min-width: 992px) { 
+  h1 {font-size:2.5rem;} 
+  .title{font-size:1.5rem;}
+  .titleNames{font-size:1.5rem;}
+  .text{font-size:1rem;}
+  .lastTitle{font-size:1.5rem;}
+}
+
+
 div {
-  height: 40%;
+  height: 7.59vw;
   background-image: linear-gradient(rgb(17, 17, 138), rgb(3, 70, 172));
-  width: 20vw;
+  width: 42vw;
   display: block;
   margin: 0;
+  
   /* padding: 0; */
 }
 
@@ -13,7 +54,8 @@ div {
   border: .05em solid rgb(63, 56, 56);
   color: white;
   font-family: Cachet;
-  font-size: 85%;
+  /* font-size: 85%; */
+  
 }
 
 .borderProp {
@@ -21,13 +63,14 @@ div {
 }
 
 h1 {
-  font-size: 400%;
+  /* font-size: 400%; */
   color: rgba(144, 250, 245, 0.527);
   padding-left: .3em;
 }
 
 .ruleOne, .ruleTwo, .ruleThree {
   display: flex;
+  
 }
 
 .titleNames {
@@ -35,7 +78,7 @@ h1 {
   padding-top: 1.3em;
   padding-left: .4em;
   color: cornsilk;
-  font-size: 120%;
+  /* font-size: 120%; */
   text-align: center;
 }
 
@@ -44,11 +87,11 @@ p {
 }
 
 .text {
-  display: inline-block;
+  /* display: inline-block; */
   font-family: Cachet;
   margin-top: -1em;
-  text-align: center;
-  font-size: 110%;
+  text-align: left;
+  /* font-size: 110%; */
 }
 
 .lastTitle {
@@ -56,11 +99,12 @@ p {
   padding-left: .3em;
   color: cornsilk;
   font-family: Cachet;
-  font-size: 130%;
+  /* font-size: 130%; */
   text-align: center;
 }
 
 .lastOne {
   padding-bottom: .7em;
   cursor: pointer;
+ 
 }
