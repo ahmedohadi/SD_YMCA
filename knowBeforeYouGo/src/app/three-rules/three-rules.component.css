@@ -1,39 +1,41 @@
 @media (min-width: 100px)
 {
-  h1 {font-size:.0000000001rem;} 
+  h1 {font-size:.0000000001rem;}
   .title{font-size:.0000000001rem;}
   .titleNames{font-size:.000000001rem;}
-  .text{font-size:.00000000000000000001rem;}
+  .text{display: none;}
   .lastTitle{font-size:.0000000000001rem;}
-} 
+}
 @media (min-width: 200px)
 {
-  h1 {font-size:.01rem;}
-  .title{font-size:.01rem;}
-  .titleNames{font-size:.01rem;}
-  .text{font-size:.01rem;}
-  .lastTitle{font-size:.01rem;}
+  h1 {font-size:.007rem;}
+  .title{font-size:.006rem;}
+  .titleNames{font-size:.007rem;}
+  .text{display: none;}
+  .lastTitle{font-size:.7rem;}
 }
-@media (min-width: 544px) {  
-  h1 {font-size:.4rem;} 
-  .title{font-size:.4rem;}
+@media (min-width: 544px) {
+  h1 {font-size:.2rem;}
+  .title{font-size:.3rem;}
   .titleNames{font-size:.4rem;}
-  .text{font-size:.001rem;}
-  .lastTitle{font-size:.4rem;}
+  .text{display: none;}
+  .lastTitle{font-size:.05rem;}
 }
 
-@media (min-width: 768px) {  
-  h1 {font-size:1rem;} 
-  .title{font-size:1rem;}
+@media (min-width: 768px) {
+  h1 {font-size:1rem;}
+  h4 {font-size: .002rem;}
+  .title{font-size:.8rem; padding-bottom: -2em;}
   .titleNames{font-size:1rem;}
-  .text{font-size:.5rem;}
+  .text{display: none;}
   .lastTitle{font-size:1rem;}
 }
-@media (min-width: 992px) { 
-  h1 {font-size:2.5rem;} 
-  .title{font-size:1.5rem;}
+@media (min-width: 992px) {
+  h1 {font-size:2rem;}
+  h4 {font-size: .1rem;}
+  .title{font-size:1.3rem;}
   .titleNames{font-size:1.5rem;}
-  .text{font-size:1rem;}
+  .text{font-size:.2rem; }
   .lastTitle{font-size:1.5rem;}
 }
 
@@ -44,7 +46,7 @@ div {
   width: 42vw;
   display: block;
   margin: 0;
-  
+
   /* padding: 0; */
 }
 
@@ -55,22 +57,29 @@ div {
   color: white;
   font-family: Cachet;
   /* font-size: 85%; */
-  
+
 }
 
 .borderProp {
+  border: .05em solid rgb(63, 56, 56);
+  margin-bottom: .1em;
+}
+
+.borderProp1 {
   border: .05em solid rgb(63, 56, 56);
 }
 
 h1 {
   /* font-size: 400%; */
   color: rgba(144, 250, 245, 0.527);
-  padding-left: .3em;
+  padding-top: .4em;
+  padding-left: 1.5em;
+  padding-bottom: .3em;
 }
 
 .ruleOne, .ruleTwo, .ruleThree {
   display: flex;
-  
+
 }
 
 .titleNames {
@@ -90,6 +99,7 @@ p {
   /* display: inline-block; */
   font-family: Cachet;
   margin-top: -1em;
+  padding-left: 1em;
   text-align: left;
   /* font-size: 110%; */
 }
@@ -104,7 +114,7 @@ p {
 }
 
 .lastOne {
-  padding-bottom: .7em;
+  padding-top: 1.8em;
+  padding-bottom: -2em;
   cursor: pointer;
- 
 }
