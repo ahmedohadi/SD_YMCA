@@ -12,15 +12,6 @@
 @media only screen and (max-width: 760px) {
   #logo1 {
     width: 20%;
-    display: block;
-  }
-  #logo2 {
-    width: 40%;
-    display: block;
-  }
-
-  #logo3 {
-    width: 30%;
   }
 }
 
@@ -28,8 +19,26 @@
   color:red;
 }
 
+.logos {
+  display: inline-block;
+  width: 5%;
+}
+
+.logos1 {
+  display: inline-block;
+  width: 7%;
+}
+
 #logo3 {
-  margin-left: -4em;
+  width: 130%;
+  display: block;
+  margin: 0;
+}
+
+#logo2 {
+  width: 110%;
+  display: block;
+  margin: 0;
 }
 
 .custom-navbar {
