@@ -3,7 +3,7 @@
   h1 {font-size:.0000000001rem;}
   .title{font-size:.0000000001rem;}
   .titleNames{font-size:.000000001rem;}
-  .text{display: none;}
+  /* .text{display: none;} */
   .lastTitle{font-size:.0000000000001rem;}
 }
 @media (min-width: 200px)
@@ -11,14 +11,14 @@
   h1 {font-size:.007rem;}
   .title{font-size:.006rem;}
   .titleNames{font-size:.007rem;}
-  .text{display: none;}
+  /* .text{display: none;} */
   .lastTitle{font-size:.7rem;}
 }
 @media (min-width: 544px) {
   h1 {font-size:.2rem;}
   .title{font-size:.3rem;}
   .titleNames{font-size:.4rem;}
-  .text{display: none;}
+  /* .text{display: none;} */
   .lastTitle{font-size:.05rem;}
 }
 
@@ -27,7 +27,7 @@
   h4 {font-size: .002rem;}
   .title{font-size:.8rem; padding-bottom: -2em;}
   .titleNames{font-size:1rem;}
-  .text{display: none;}
+  /* .text{display: none;} */
   .lastTitle{font-size:1rem;}
 }
 @media (min-width: 992px) {
@@ -35,7 +35,7 @@
   h4 {font-size: .1rem;}
   .title{font-size:1.3rem;}
   .titleNames{font-size:1.5rem;}
-  .text{font-size:.2rem; }
+  .text{font-size:1rem; }
   .lastTitle{font-size:1.5rem;}
 }
 
