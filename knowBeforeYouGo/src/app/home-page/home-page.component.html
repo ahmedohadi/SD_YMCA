@@ -1,6 +1,6 @@
+<!-- Navbar at the top of the page -->
 <app-navbar></app-navbar>
-
-
+<!-- The roatating carousel and the 3 essential rules on the right side of the page  -->
 <div class="container-fluid">
 
   <div class="row no-gutters">
@@ -50,10 +50,7 @@
     <!--/.Controls-->
   </div>
   <!--/.Carousel Wrapper-->
-
   </div>
-
-
   <div class="col-5">
     <div style="width:100%;">
       <app-three-rules></app-three-rules>
@@ -63,11 +60,10 @@
 
 
 </div>
-
-
+<!-- The Cards with details of the 3 essential rules and the seasonal cards-->
 <body>
-  <!-- 3 Essential Rules -->
   <div class="Flex-column">
+    <!-- 3 Essential Rules -->
       <div class="container-fluid">
           <h1>THE 3 ESSENTIAL RULES OF WATER SAFETY</h1>
           <div class="row">
@@ -100,14 +96,16 @@
                     <img class="card-img-top" src="assets/imagethree.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">3. THE RIGHT EQUIPMENT</h5>
-                      <!-- <p class="card-text">Layers of protection, like a non-climbable fence with a self-locking gate, can keep children who wander off from falling into the pool. Young children and poor swimmers should always wear life jackets, and remember to put them back on if they are taken off for any reason. Safer pools have rescue equipment like pool noodles, a ring buoy and quick access to a telephone.</p> -->
-                      <p class="card-text">Layers of protection, like a non-climbable fence with a self-locking gate, can keep children who wander off from falling into the pool. Safer pools have rescue equipment like pool noodles, a ring buoy and quick access to a telephone.</p>
+                      <p class="card-text">Layers of protection, like a non-climbable fence with a self-locking gate, can keep children who 
+                        wander off from falling into the pool. Safer pools have rescue equipment like pool noodles, a ring buoy and quick 
+                        access to a telephone.</p>
                     </div>
                   </div>
             </div>
           </div>
       </div>
       <br>
+      <!-- Drowning is a Silent Killer -->
       <div class="container-fluid">
           <h1>DROWNING IS A SILENT KILLER</h1>
           <div class="row">
@@ -150,51 +148,15 @@
                       </div>
                     </div>
               </div>
-  
           </div>
-  
       </div>
       <br>
       <div class="container-fluid">
           <h1>FREE SWIM ASSESSMENT</h1>
           <h6>Take the first step to drowning prevention today by signing your child up for a free swim assessment at a local YMCA.</h6>
-          <button class="btn btn-primary mb-3" href="https://ymcadallas.org/form/free-swim-assessment">Register For A Free Swim Assesssment</button>
-  
+          <button class="btn btn-primary mb-3" (click)="onNavigate()">Register For A Free Swim Assesssment</button>
       </div>
-
   </div>
-
-
-
-
-    
-
-    <!-- One Minute
-    <h1>One Minute......</h1>
-    <h4>Is all it takes for a child to drown</h4>
-    <h6>Click the RED dots to discover the 5 drowning dangers </h6>
-    <br>
-    <div class="row">
-        <div class="col">
-            <span class="badge badge-pill badge-danger">THE MINUTE YOU CONFUSE A TOY WITH A FLOTATION DEVICE</span>
-        </div>
-        <div class="col">
-            <span class="badge badge-pill badge-danger">THE ONE MINUTE TEXT MESSAGE</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <span class="badge badge-pill badge-danger">THE MINUTE SOMEONE IS A HERO</span>
-        </div>
-        <div class="col">
-            <span class="badge badge-pill badge-danger">THE MINUTE YOU LEAVE THE GATE OPEN</span>
-        </div>
-        <div class="col">
-            <span class="badge badge-pill badge-danger">THE ONE MINUTE SUN BATH</span>
-        </div>
-      </div> -->
-
-
-  </body>
-
+</body>
+<!--Footer is at the bottom of the page  -->
 <app-footer></app-footer>
