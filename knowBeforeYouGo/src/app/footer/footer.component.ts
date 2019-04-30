@@ -12,7 +12,4 @@ export class FooterComponent {
 
   constructor() { }
 
-  ngOnInit() {
-
-  }
 }
