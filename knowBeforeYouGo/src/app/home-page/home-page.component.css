@@ -1,11 +1,11 @@
-/* .carousel-inner img { */
-    /* margin: auto; */
-    /* font-family: Cachet; */
-    /* height: 37.5vw; */
+.carousel-inner img {
+    margin: auto;
+    font-family: Cachet;
+    height: 37.5vw;
     /* height: 100% auto; */
-    /* width: 41vw; */
+    width: 41vw;
     /* width: 100%; */
-/* } */
+}
 
 body {
     padding-top: 50px;
