@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-three-rules',
   templateUrl: './three-rules.component.html',
@@ -11,5 +12,6 @@ export class ThreeRulesComponent implements OnInit {
 
   ngOnInit() {
   }
+
 
 }

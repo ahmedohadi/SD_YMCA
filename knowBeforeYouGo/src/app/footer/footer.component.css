@@ -10,11 +10,15 @@ a{
   color: #8EC1E8;
 }
 
-.sponsor5{
-  padding-bottom: 15px;
+img{
+  padding-left: 5px;
 }
 
-img{
-  height: 70px;
-  padding-right: 15px;
+
+.sponsor1, .sponsor5{
+  width: 15%;
+}
+
+.sponsor2, .sponsor3, .sponsor4{
+  width: 5%;
 }

@@ -67,8 +67,19 @@ html {
 
 @media (max-width: 45em) {
   img {
-    padding-top: 5em;
-    width: 100%;
-    height: auto;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    padding-bottom: 1em;
+  }
+
+  #safety {
+    width: 80%;
+  }
+
+  .top-left {
+    padding-top: 5.3em;
   }
 }

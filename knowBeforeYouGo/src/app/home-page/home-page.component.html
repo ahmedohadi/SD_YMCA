@@ -1,9 +1,10 @@
+<!-- Navbar at the top of the page -->
 <app-navbar></app-navbar>
-
+<!-- The roatating carousel and the 3 essential rules on the right side of the page  -->
 <div class="container-fluid">
 
   <div class="row no-gutters">
-  <div class="col-9">
+  <div class="col-7">
     <!--Carousel Wrapper-->
   <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
     <!--Indicators-->
@@ -49,11 +50,8 @@
     <!--/.Controls-->
   </div>
   <!--/.Carousel Wrapper-->
-
   </div>
-
-
-  <div class="col">
+  <div class="col-5">
     <div style="width:100%;">
       <app-three-rules></app-three-rules>
     </div>
@@ -62,128 +60,103 @@
 
 
 </div>
-
-
+<!-- The Cards with details of the 3 essential rules and the seasonal cards-->
 <body>
-  <!-- 3 Essential Rules -->
-  <h1>THE 3 ESSENTIAL RULES OF WATER SAFETY</h1>
-    <div class="container">
-        <div class="row">
-          <div class="col-sm">
-              <div class="card  h-100" style="width: 18rem;">
-                  <img class="card-img-top" src="assets/imageone.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">1. TEST & TEACH</h5>
-                    <p class="card-text">Have your child’s swimming skills tested at your local YMCA at no cost. If your child is not
-
-                        a strong swimmer, enroll him or her in swim classes. The YMCA offers swimming classes for
-
-                        children six months and up.</p>
-                  </div>
-                </div>
-          </div>
-          <div class="col-sm">
-              <div class="card  h-100" style="width: 18rem;">
-                  <img class="card-img-top" src="assets/imagetwo.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">2. WATCH & GUARD</h5>
-                    <p class="card-text">Never leave a child alone in or around the water. Assign an adult “Water Watcher” who can
-
-                        focus on the water without distraction. Touch supervision is essential for young children and those who can’t swim.</p>
-                  </div>
-                </div>
-          </div>
-          <div class="col-sm">
-              <div class="card  h-100" style="width: 18rem;">
-                  <img class="card-img-top" src="assets/imagethree.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">3. THE RIGHT EQUIPMENT</h5>
-                    <!-- <p class="card-text">Layers of protection, like a non-climbable fence with a self-locking gate, can keep children who wander off from falling into the pool. Young children and poor swimmers should always wear life jackets, and remember to put them back on if they are taken off for any reason. Safer pools have rescue equipment like pool noodles, a ring buoy and quick access to a telephone.</p> -->
-                    <p class="card-text">Layers of protection, like a non-climbable fence with a self-locking gate, can keep children who wander off from falling into the pool. Safer pools have rescue equipment like pool noodles, a ring buoy and quick access to a telephone.</p>
-                  </div>
-                </div>
-          </div>
-        </div>
-    </div>
-    <br>
-    <h1>DROWNING IS A SILENT KILLER</h1>
-    <div class="container">
-        <div class="row">
+  <div class="Flex-column">
+    <!-- 3 Essential Rules -->
+      <div class="container-fluid">
+          <h1>THE 3 ESSENTIAL RULES OF WATER SAFETY</h1>
+          <div class="row">
             <div class="col-sm">
-                <div class="card  h-100" style="width: 18rem;">
-                    <img class="card-img-top" src="assets/bathroom.jpg" alt="Card image cap">
+                <div class="card  h-100" style="width: 18rem;" fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="flex-start">
+                    <img class="card-img-top" src="assets/imageone.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <h3 class="card-title">Bathroom</h3>
-                      <h5>How much time does it take to drownin a bathtub?</h5>
-                      <h6>Cross a room for a towel (10 sec), a child in a bathtub can be submerged</h6>
-                      <br>
-                      <h5>Safety Tips</h5>
-                      <h6>Be prepared with everything you will need before bathing your child</h6>
+                      <h5 class="card-title">1. TEST & TEACH</h5>
+                      <p class="card-text">Have your child’s swimming skills tested at your local YMCA at no cost. If your child is not
+
+                          a strong swimmer, enroll him or her in swim classes. The YMCA offers swimming classes for
+
+                          children six months and up.</p>
                     </div>
                   </div>
             </div>
             <div class="col-sm">
                 <div class="card  h-100" style="width: 18rem;">
-                    <img class="card-img-top" src="assets/party.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="assets/imagetwo.png" alt="Card image cap">
                     <div class="card-body">
-                      <h3 class="card-title">Pool Party</h3>
-                      <h5>Did you know?</h5>
-                      <h6>64% of children drowned when an adult was within (range of view, sight, eyeshot)</h6>
-                      <br>
-                      <h5>Safety Tips</h5>
-                      <h6>ALWAYS supervise kids in and around the water</h6>
+                      <h5 class="card-title">2. WATCH & GUARD</h5>
+                      <p class="card-text">Never leave a child alone in or around the water. Assign an adult “Water Watcher” who can
+
+                          focus on the water without distraction. Touch supervision is essential for young children and those who can’t swim.</p>
                     </div>
                   </div>
             </div>
             <div class="col-sm">
-                <div class="card  h-100" style="width: 18rem">
-                    <img class="card-img-top" src="assets/openwater.jpg" alt="Card image cap">
+                <div class="card  h-100" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/imagethree.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <h3 class="card-title">Open Water</h3>
-                      <h5>Did you know?</h5>
-                      <h6>11% of children drown in open water</h6>
-                      <br>
-                      <h5>Safety Tips</h5>
-                      <h6>Always use Coast Guard approved life jackets and Never let children dive into natural bodies of water</h6>
+                      <h5 class="card-title">3. THE RIGHT EQUIPMENT</h5>
+                      <p class="card-text">Layers of protection, like a non-climbable fence with a self-locking gate, can keep children who
+                        wander off from falling into the pool. Safer pools have rescue equipment like pool noodles, a ring buoy and quick
+                        access to a telephone.</p>
                     </div>
                   </div>
             </div>
-
-        </div>
-
-    </div>
-    <br>
-    <h1>FREE SWIM ASSESSMENT</h1>
-    <h6>Take the first step to drowning prevention today by signing your child up for a free swim assessment at a local YMCA.</h6>
-    <button class="btn btn-primary mb-3" href="https://ymcadallas.org/form/free-swim-assessment">Register For A Free Swim Assesssment</button>
-
-    <!-- One Minute
-    <h1>One Minute......</h1>
-    <h4>Is all it takes for a child to drown</h4>
-    <h6>Click the RED dots to discover the 5 drowning dangers </h6>
-    <br>
-
-    <div class="row">
-        <div class="col">
-            <span class="badge badge-pill badge-danger">THE MINUTE YOU CONFUSE A TOY WITH A FLOTATION DEVICE</span>
-        </div>
-        <div class="col">
-            <span class="badge badge-pill badge-danger">THE ONE MINUTE TEXT MESSAGE</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <span class="badge badge-pill badge-danger">THE MINUTE SOMEONE IS A HERO</span>
-        </div>
-        <div class="col">
-            <span class="badge badge-pill badge-danger">THE MINUTE YOU LEAVE THE GATE OPEN</span>
-        </div>
-        <div class="col">
-            <span class="badge badge-pill badge-danger">THE ONE MINUTE SUN BATH</span>
-        </div>
-      </div> -->
-
-
-  </body>
-
+          </div>
+      </div>
+      <br>
+      <!-- Drowning is a Silent Killer -->
+      <div class="container-fluid">
+          <h1>DROWNING IS A SILENT KILLER</h1>
+          <div class="row">
+              <div class="col-sm">
+                  <div class="card  h-100" style="width: 18rem;">
+                      <img class="card-img-top" src="assets/bathroom.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h3 class="card-title">Bathroom</h3>
+                        <h5>How much time does it take to drownin a bathtub?</h5>
+                        <h6>Cross a room for a towel (10 sec), a child in a bathtub can be submerged</h6>
+                        <br>
+                        <h5>Safety Tips</h5>
+                        <h6>Be prepared with everything you will need before bathing your child</h6>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm">
+                  <div class="card  h-100" style="width: 18rem;">
+                      <img class="card-img-top" src="assets/party.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h3 class="card-title">Pool Party</h3>
+                        <h5>Did you know?</h5>
+                        <h6>64% of children drowned when an adult was within (range of view, sight, eyeshot)</h6>
+                        <br>
+                        <h5>Safety Tips</h5>
+                        <h6>ALWAYS supervise kids in and around the water</h6>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm">
+                  <div class="card  h-100" style="width: 18rem">
+                      <img class="card-img-top" src="assets/openwater.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h3 class="card-title">Open Water</h3>
+                        <h5>Did you know?</h5>
+                        <h6>11% of children drown in open water</h6>
+                        <br>
+                        <h5>Safety Tips</h5>
+                        <h6>Always use Coast Guard approved life jackets and Never let children dive into natural bodies of water</h6>
+                      </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="container-fluid">
+          <h1>FREE SWIM ASSESSMENT</h1>
+          <h6>Take the first step to drowning prevention today by signing your child up for a free swim assessment at a local YMCA.</h6>
+          <button class="btn btn-primary mb-3" (click)="onNavigate()">Register For A Free Swim Assesssment</button>
+      </div>
+  </div>
+</body>
+<!--Footer is at the bottom of the page  -->
 <app-footer></app-footer>

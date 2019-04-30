@@ -1,9 +1,10 @@
 div {
-  height: 40%;
+  height: 7.45vw;
   background-image: linear-gradient(rgb(17, 17, 138), rgb(3, 70, 172));
-  width: 20vw;
+  width: 41vw;
   display: block;
   margin: 0;
+
   /* padding: 0; */
 }
 
@@ -13,22 +14,32 @@ div {
   border: .05em solid rgb(63, 56, 56);
   color: white;
   font-family: Cachet;
-  font-size: 85%;
+  /* font-size: 85%; */
+  font-size: 2vw;
+
 }
 
 .borderProp {
   border: .05em solid rgb(63, 56, 56);
-  width: 100%;
+  margin-bottom: .1em;
+}
+
+.borderProp1 {
+  border: .05em solid rgb(63, 56, 56);
 }
 
 h1 {
-  font-size: 400%;
+  /* font-size: 400%; */
   color: rgba(144, 250, 245, 0.527);
-  padding-left: .3em;
+  padding-top: .4em;
+  padding-left: 1.5em;
+  padding-bottom: .3em;
+  font-size: 1vw;
 }
 
 .ruleOne, .ruleTwo, .ruleThree {
   display: flex;
+
 }
 
 .titleNames {
@@ -36,8 +47,9 @@ h1 {
   padding-top: 1.3em;
   padding-left: .4em;
   color: cornsilk;
-  font-size: 120%;
+  /* font-size: 120%; */
   text-align: center;
+  font-size: 2vw;
 }
 
 p {
@@ -45,11 +57,13 @@ p {
 }
 
 .text {
-  display: inline-block;
+  /* display: inline-block; */
   font-family: Cachet;
   margin-top: -1em;
-  text-align: center;
-  font-size: 110%;
+  padding-left: 1em;
+  text-align: left;
+  /* font-size: 110%; */
+  font-size: 1.10vw;
 }
 
 .lastTitle {
@@ -57,11 +71,13 @@ p {
   padding-left: .3em;
   color: cornsilk;
   font-family: Cachet;
-  font-size: 130%;
+  /* font-size: 130%; */
   text-align: center;
+  font-size: 2vw;
 }
 
 .lastOne {
-  padding-bottom: .7em;
+  padding-top: 1.8em;
+  padding-bottom: -2em;
   cursor: pointer;
 }

@@ -30,6 +30,11 @@ strong {
   padding-right: .4em;
 }
 
+.card-body {
+  font-family: Cachet;
+  background-color: rgba(144, 250, 245, 0.527);
+}
+
 h4 {
   cursor: pointer;
   font-family: Cachet;
