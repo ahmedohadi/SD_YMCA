@@ -2,22 +2,35 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.carsouel {
-  width: 100%;
+/* .carsouel {
+  width: 100% ;
   height: 550px;
-  /* border: 5px solid black; */
-  background-size: 100% 100%;
+  border: 5px solid black;
+  background-size: contain;
   background-repeat: no-repeat;
   color: black;
-}
+} */
 
-/* div {
-  background-color: white;
-  color: black;
+/* @media screen and (min-width: 480px) {
+  .carsouel {
+    background-size: contain;
+    height: 100% auto;
+  }
 } */
 
 .image {
   width: 100%;
   padding-top: 8px;
+  font-family: Cachet;
+
   /* border: 5px solid black; */
+}
+
+h1, h5, p {
+  font-family: Cachet;
+}
+
+img {
+  /* width: 100%; */
+  height: 500px;
 }
