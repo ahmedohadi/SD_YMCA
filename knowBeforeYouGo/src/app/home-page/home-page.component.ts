@@ -11,8 +11,8 @@ export class HomePageComponent implements OnInit {
 
   ngOnInit() {
   }
-  onNavigate(){
-    window.open("https://ymcadallas.org/form/free-swim-assessment", "_blank");
-}
+//   onNavigate(){
+//     window.open("https://ymcadallas.org/form/free-swim-assessment", "_blank");
+// }
 
 }
